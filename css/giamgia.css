@@ -1,0 +1,17 @@
+/*giamgia */
+.new-feature-header__user-line .col-sm-12 .heading-news {
+    display: block;
+}
+
+.new-feature-header__user-line {
+    height: 32px;
+    line-height: 32px;
+    background-color: #e73948;
+    color: #fff;
+}
+
+body {
+    
+    font-size: 14px;
+    
+}
