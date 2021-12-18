@@ -35,7 +35,7 @@
         <a title="Thông tin khuyến mãi, giảm giá, sale, ưu đãi, coupon, voucher... về ăn uống, thời trang, mỹ phẩm, làm đẹp năm 2019 trên toàn quốc - JAMJA" class="" href="/"><img src="/assets/images/jamja-logo-2018-2x.png" alt="" height="56">
         </a>
       </div>
-      <div class="search-box">
+      <div class="search-box ">
         <span class="material-icons-outlined">search</span>
         <span class="search-box-label mr-2 ml-1">Tìm</span>
         <div class="results-box " style="width: 428px;">
@@ -43,7 +43,7 @@
           <div class="suggest-box">
             <div class="suggest-wrapper">
               <div class="suggest-word">
-                <a href="javascript:;"></a>
+                <a href="javascript:;">Toco Toco</a>
               </div>
               <div class="suggest-word ">
                 <a href="javascript:;"><!-- react-text: 28 --> <!-- /react-text --><!-- react-text: 29 -->Silky Beauty<!-- /react-text --><!-- react-text: 30 -->  <!-- /react-text --></a>
@@ -53,11 +53,11 @@
         </div>
         <span class="material-icons-outlined">place</span>
         <span class="search-box-label mr-2">Ở</span>
-        <select name="location" id="home-page-choose-location" class="form-control choose-location">
-          <option class="location" value="ha-noi">Hà Nội</option>
-          <option class="location" value="tp-hcm">Tp. Hồ Chí Minh</option>
-          <option class="location" value="da-nang">Đà Nẵng</option>
-          <option class="location" value="hai-phong">Hải Phòng</option>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Hà Nội</option>
+          <option value="1">Tp.Hồ Chí Minh</option>
+          <option value="2">Đà Nẵng</option>
+          <option value="3">Hải Phòng</option>
         </select>
       </div>
     </div><!-- react-empty: 38 -->

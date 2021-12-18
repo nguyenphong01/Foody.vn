@@ -1,4 +1,7 @@
 /*giamgia */
+
+
+
 .new-feature-header__user-line .col-sm-12 .heading-news {
     display: block;
 }
@@ -14,4 +17,36 @@ body {
     
     font-size: 14px;
     
+}
+.new-feature-search-bar {
+    height: 98px;
+    background-color: #fff;
+    
+    display: flex;
+  
+    flex-direction: row;
+    
+    
+}
+
+.new-feature-search-bar .search-box .suggest-box .suggest-word {
+    border-top: 1px solid #ededed;
+    padding: 0 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
