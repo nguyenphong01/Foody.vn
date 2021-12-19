@@ -13,31 +13,28 @@
     <link rel="stylesheet" href="css/giamgia.css">
 </head>
 <body>
-  <div class="new-feature-header ">
-    <div class="new-feature-header__user-line">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 alr">
-            <div class="heading-news">
-              <a href="https://jamja.vn/tuyen-dung/" rel="nofollow" target="_blank">
-                <span class="jicon_users_o">                 
-                </span><!-- react-text: 11 -->JAMJA đang tuyển dụng - Nhiều vị trí! Ứng tuyển ngay<!-- /react-text -->
-                <span class="jicon_chevron_right_o"></span>
-              </a>
-            </div>
-          </div>
+
+<header id="header">
+    <div class="container-topbar">
+      <a href="https://jamja.vn/tuyen-dung/" rel="nofollow" target="_blank">
+        <div class="text">
+          <span class="material-icons-outlined">people_alt</span>JAMJA đang tuyển dụng - Nhiều vị trí! Ứng tuyển ngay
         </div>
-      </div>
+        <span class="jicon_chevron_right_o"></span>
+      </a>
     </div>
-  
-    <div class="container new-feature-search-bar">
+    <div class="container-bottom">
       <div class="logo">
-        <a title="Thông tin khuyến mãi, giảm giá, sale, ưu đãi, coupon, voucher... về ăn uống, thời trang, mỹ phẩm, làm đẹp năm 2019 trên toàn quốc - JAMJA" class="" href="/"><img src="/assets/images/jamja-logo-2018-2x.png" alt="" height="56">
-        </a>
+          <a title="Thông tin khuyến mãi, giảm giá, sale, ưu đãi, coupon, voucher... về ăn uống, thời trang, mỹ phẩm, làm đẹp năm 2019 trên toàn quốc - JAMJA" class="" href="/">
+            <img src="img/jamja-logo.png" alt="" height="56">
+          </a>
       </div>
-      <div class="search-box ">
-        <span class="material-icons-outlined">search</span>
-        <span class="search-box-label mr-2 ml-1">Tìm</span>
+
+      <div class="search-box">
+        <div class="a">
+          <span class="material-icons-outlined">search</span>
+          <span class="search-box-label mr-2 ml-1">Tìm</span>
+        </div>
         <div class="results-box " style="width: 428px;">
           <input type="text" class="search-input" autocomplete="off" placeholder="khuyến mãi, thương hiệu, sản phẩm..." id="inputSearch" value="">
           <div class="suggest-box">
@@ -46,11 +43,13 @@
                 <a href="javascript:;">Toco Toco</a>
               </div>
               <div class="suggest-word ">
-                <a href="javascript:;"><!-- react-text: 28 --> <!-- /react-text --><!-- react-text: 29 -->Silky Beauty<!-- /react-text --><!-- react-text: 30 -->  <!-- /react-text --></a>
+                <a href="javascript:;">Silky Beauty</a>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="select">
         <span class="material-icons-outlined">place</span>
         <span class="search-box-label mr-2">Ở</span>
         <select class="form-select" aria-label="Default select example">
@@ -60,9 +59,15 @@
           <option value="3">Hải Phòng</option>
         </select>
       </div>
-    </div><!-- react-empty: 38 -->
-  </div>
+    </div>
 
+
+</header>
+
+
+
+
+  
     
 
 
