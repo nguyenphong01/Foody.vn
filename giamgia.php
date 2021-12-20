@@ -18,7 +18,7 @@
     <div class="container-topbar">
       <a href="https://jamja.vn/tuyen-dung/" rel="nofollow" target="_blank">
         <div class="text">
-          <span class="material-icons-outlined">people_alt</span>JAMJA đang tuyển dụng - Nhiều vị trí! Ứng tuyển ngay
+          <span class="material-icons-outlined" >people_alt</span>JAMJA đang tuyển dụng - Nhiều vị trí! Ứng tuyển ngay >
         </div>
         <span class="jicon_chevron_right_o"></span>
       </a>
@@ -30,14 +30,14 @@
           </a>
       </div>
 
-      <div class="search-box">
+      <div class="search-box ">
         <div class="a">
           <span class="material-icons-outlined">search</span>
           <span class="search-box-label mr-2 ml-1">Tìm</span>
         </div>
-        <div class="results-box " style="width: 428px;">
-          <input type="text" class="search-input" autocomplete="off" placeholder="khuyến mãi, thương hiệu, sản phẩm..." id="inputSearch" value="">
-          <div class="suggest-box">
+        <div class="results-box " >
+          <input type="text" class="search-input" autocomplete="off" placeholder="   khuyến mãi, thương hiệu, sản phẩm..." id="inputSearch" value="" style="width: 428px; height:50px" >
+          <!--<div class="suggest-box">
             <div class="suggest-wrapper">
               <div class="suggest-word">
                 <a href="javascript:;">Toco Toco</a>
@@ -46,13 +46,13 @@
                 <a href="javascript:;">Silky Beauty</a>
               </div>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
       <div class="select">
         <span class="material-icons-outlined">place</span>
         <span class="search-box-label mr-2">Ở</span>
-        <select class="form-select" aria-label="Default select example">
+        <select class="form-select" aria-label="Default select example" style="width:200px; height:50px">
           <option selected>Hà Nội</option>
           <option value="1">Tp.Hồ Chí Minh</option>
           <option value="2">Đà Nẵng</option>
@@ -64,7 +64,23 @@
 
 </header>
 
-
+<div id="container">
+    <div class="home_page">
+        <div class="category_list_menu">
+            <div class="menu_first">
+                <a class="category-menu-item" href="/">
+                    <div class="category-menu-item_left">
+                        <span class="material-icons-outlined">menu_open</span>
+                    </div>
+                    <span>Đặt chỗ khuyến mãi</span>
+                    <div class="category-menu-item_right">
+                        <span class="material-icons-outlined">chevron_right</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
   

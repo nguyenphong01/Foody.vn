@@ -1,6 +1,11 @@
 /*giamgia */
 
-
+body {
+    
+    font-size: 14px;
+    background-color: rgb(230, 234, 238) ;
+    
+}
 
 
 
@@ -16,21 +21,101 @@
     line-height: 32px;
     background-color: #e73948;
     color: #fff;
+    align-items: center;
 }
 .container-bottom{
+    
+    
+    display: flex;  
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.logo{
     margin-left: 204px;
 }
 
+
 .search-box{
     display: flex;
+    
 }
 
 .a{
     display: flex;
+    align-items: center;
+    margin-left: 225px;
+    justify-content: space-between;
 }
 
-body {
+.results-box{
+   
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    margin-right: 206px;
+}
+
+
+/* CSS main */
+.home_page{
     
-    font-size: 14px;
+    margin-top: 30px;
+   
+    margin-left: 204px;
+}
+
+.category_list_menu{
+   
+}
+
+.menu_first{
+    background-color:#e73948 ;
+    width: 279px;
+    height: 52px;
+    text-align: center;
+}
+
+.category-menu-item{
+    
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 14px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(223, 189, 189);
     
 }
