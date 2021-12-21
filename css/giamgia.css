@@ -1,6 +1,11 @@
 /*giamgia */
 
-
+body {
+    
+    font-size: 14px;
+    background-color: rgb(230, 234, 238) ;
+    
+}
 
 
 
@@ -16,21 +21,158 @@
     line-height: 32px;
     background-color: #e73948;
     color: #fff;
+    align-items: center;
 }
 .container-bottom{
+    
+    
+    display: flex;  
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.logo{
     margin-left: 204px;
 }
 
+
 .search-box{
     display: flex;
+    
 }
 
 .a{
     display: flex;
+    align-items: center;
+    margin-left: 225px;
+    margin-right: 10px;
 }
 
-body {
+.b{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.results-box{
+   
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    margin-right: 206px;
+}
+
+
+/* CSS main */
+.home_page{
     
-    font-size: 14px;
+    margin-top: 30px;
+   
+    margin-left: 204px;
+}
+
+.category_list_menu{
+   
+}
+
+.menu_first{
+    display: flex;
+    background-color:#e73948 ;
+    width: 279px;
+    height: 52px;
+    border-radius: 4px;
+}
+
+.category-menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+
+.category-menu-item_left{
+    margin-left: 5px;
+}
+
+.category-menu-item_right{
+    margin-left: 105px;
+}
+
+/*///////////////////////////////////////////*/
+.home-page-category-list {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.home-page-category-list .category-menu-item--header {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+
+.home-page-category-list .category-menu-item--header .category-menu-item__url {
+    color: #454545;
+}
+
+.home-page-category-list .category-menu-item {
+    position: relative;
+    line-height: 40px;
+    min-height: 40px;
+    background-color: #fff;
+    color: #666;
+    border-bottom: 1px solid #ededed;
+}
+
+.home-page-category-list .category-menu-item__url__left {
+    min-width: 40px;
+   
+    display: flex;
+    
+    
+   
+    
+    color: #999;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 14px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(223, 189, 189);
     
 }
