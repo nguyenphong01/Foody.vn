@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container,
+.container-fluid {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70px;
+    color: #fff;
+}
+
+.container .logo-spfood {
+    right: 100%;
+    cursor: pointer;
+    margin-right: 72px;
+    padding-left: 0;
+}
+
+.logo-spfood img[alt=ShopeeFood] {
+    height: 30px;
+}
+
+.container .local .dropdown-toggle {
+    color: #252525;
+    border: 0;
+    padding: 10px 8px 10px 18px;
+    background-color: #00000012;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown-toggle::after {
+    top: 50%;
+    right: 8px;
+    margin-top: -2px;
+    border-top-color: #acacac;
+}
+
+.header-nav {
+    padding-left: 48px;
+    padding-right: 0;
+    white-space: nowrap;
+}
+
+.header-nav .nav-item.active {
+    color: #ee4d2d;
+    font-weight: 700;
+    border-bottom-color: #ee4d2d;
+}
+
+.header-nav .nav-item {
+    color: #252525;
+    cursor: pointer;
+    padding: 10px 12px 21px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 4px solid transparent;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.container .icon-search {
+    cursor: pointer;
+    font-size: 24px;
+    color: #000;
+}
+
+.container .btn-login {
+    padding: 7px 12px;
+    background-color: #fff;
+    border-color: #ee4d2d;
+    color: #ee4d2d;
+}
+
+.container .btn-login:hover {
+    opacity: 0.8;
+}
+
+.main-header .language {
+    position: fixed;
+    right: 0;
+}
+
+.language img[alt=Language] {
+    width: 20px;
+    margin-right: -4px;
+    margin-bottom: 4px;
+}
+
+#language-dropdown {
+    margin-right: 16px;
+    cursor: pointer;
+}

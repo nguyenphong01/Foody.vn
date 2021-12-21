@@ -13,48 +13,62 @@
 
 <body>
     <div class="wrapper">
-        <div class="header">
-                <div class="container">
-                    <div class="header-content row navbar d-flex justify-content-between align-items-center ">
-                        <div class="logo-spfood col-auto">
-                            <span>
-                                <a href="">
-                                    <img src="./img/logo-shopeefood.png" alt="ShopeeFood">
-                                </a>
-                            </span>
-                        </div>
+        <header class="main-header">
+            <div class="container">
+                <div class="header-content row navbar d-flex">
+                    <div class="logo-spfood col-auto">
+                        <span>
+                            <a href="">
+                                <img src="./img/logo-shopeefood.png" alt="ShopeeFood">
+                            </a>
+                        </span>
+                    </div>
 
-                        <div class="local col-auto">
-                            <div class="dropdown">
-                                <div class="btn btn-secondary dropdown-toggle" type="button" id="local-dropdown"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Hà Nội
-                                </div>
-                                <div class="dropdown-menu">
-                                    <div class="dropdown-item">
-                                        <span drop-item-name col>Bắc Ninh</span>
-                                        <span drop-item-count>66000 địa điểm</span>
-                                    </div>
+                    <div class="local col-auto">
+                        <div class="dropdown">
+                            <div class="btn btn-secondary dropdown-toggle" type="button" id="local-dropdown"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Hà Nội
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-item">
+                                    <span drop-item-name col>Bắc Ninh</span>
+                                    <span drop-item-count>66000 địa điểm</span>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="header-nav col">
-                            <a class="nav-item active" href="#">Đồ ăn</a>
-                            <a class="nav-item" href="#">Thực phẩm</a>
-                            <a class="nav-item" href="#">Bia</a>
-                            <a class="nav-item" href="#">Hoa</a>
-                            <a class="nav-item" href="#">Siêu thị</a>
-                            <a class="nav-item" href="#">Thuốc</a>
-                            <a class="nav-item" href="#">Thú cưng</a>
-                        </div>
+                    <div class="header-nav col">
+                        <a class="nav-item active" href="#">Đồ ăn</a>
+                        <a class="nav-item" href="#">Thực phẩm</a>
+                        <a class="nav-item" href="#">Bia</a>
+                        <a class="nav-item" href="#">Hoa</a>
+                        <a class="nav-item" href="#">Siêu thị</a>
+                        <a class="nav-item" href="#">Thuốc</a>
+                        <a class="nav-item" href="#">Thú cưng</a>
+                    </div>
 
-                        <div class="user-login col-auto">
-                            <button type="button" class="btn btn-none-bg btn-login">Đăng nhập</button>
+                    <div class="col-auto">
+                        <span><i class="bi bi-search icon-search"></i></span>
+                    </div>
+
+                    <div class="user-login col-auto">
+                        <button type="button" class="btn btn-none-bg btn-login">Đăng nhập</button>
+                    </div>
+
+                    <div class="language dropdown col-auto">
+                        <div class="dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <span>
+                                <img src="./img/flagvn.png" alt="Language">
+                            </span>
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
+        </header>
+
         <div class="search-and-product mx-auto">
             <div class="container-fluid">
                 <div class="row">
