@@ -56,9 +56,7 @@ body {
     margin-right: 10px;
 }
 
-.results-box{
-   
-}
+
 
 .select{
     display: flex;
@@ -75,9 +73,7 @@ body {
     margin-left: 204px;
 }
 
-.category_list_menu{
-   
-}
+
 
 .menu_first{
     display: flex;
@@ -110,6 +106,7 @@ body {
     margin-top: 20px;
     padding: 0;
     list-style: none;
+    width: 279px;
 }
 
 .home-page-category-list .category-menu-item--header {
@@ -131,11 +128,10 @@ body {
     border-bottom: 1px solid #ededed;
 }
 
-.home-page-category-list .category-menu-item__url__left {
-    min-width: 40px;
-   
-    display: flex;
+.home-page-category-list .category-menu-item__url {
     
+    display: flex;
+    align-items: center;
     
    
     

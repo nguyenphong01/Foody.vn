@@ -68,6 +68,7 @@
 
 <div id="container">
     <div class="home_page">
+      <div class="home_page_left">
         <div class="category_list_menu">
             <div class="menu_first">
                 <a class="category-menu-item" href="/">
@@ -143,6 +144,51 @@
             </a>
           </li>
         </ul>
+
+        <ul class="home-page-category-list">
+          <li class="category-menu-item category-menu-item--header">
+            <a href="javascript:;" class="category-menu-item__url">
+              <span>Khám phá</span>
+            </a>
+          </li>
+          <li class="category-menu-item">
+            <a class="category-menu-item__url" href="/an">
+              <div class="category-menu-item__url__left">
+                <span class="material-icons-outlined">military_tech</span>
+              </div>
+              <span>Độc quyền - Chỉ có tại JAMJA</span>
+              <div class="category-menu-item__url__right">
+                <span class="jicon_chevron_right_o"></span>
+              </div>
+            </a>
+          </li>
+          <li class="category-menu-item">
+            <a class="category-menu-item__url" href="/uong">
+              <div class="category-menu-item__url__left">
+                <span class="material-icons-outlined">collections_bookmark</span>
+              </div>
+              <span>Bộ sưu tập</span>
+              <div class="category-menu-item__url__right">
+                <span class="jicon_chevron_right_o"></span>
+              </div>
+            </a>
+          </li>
+          <li class="category-menu-item">
+            <a class="category-menu-item__url" href="/giai-tri">
+              <div class="category-menu-item__url__left">
+                <span class="material-icons-outlined">store_mall_directory</span>
+              </div>
+              <span>Trung tâm thương mại</span>
+              <div class="category-menu-item__url__right">
+                <span class="jicon_chevron_right_o"></span>
+              </div>
+            </a>
+          </li>
+          
+        </ul>
+
+       
+      </div>  
     </div>
 </div>
 
