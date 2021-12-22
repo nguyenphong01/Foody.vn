@@ -13,6 +13,7 @@
 
 <body>
     <div class="wrapper">
+        <!-- Header -->
         <header class="main-header">
             <div class="container">
                 <div class="header-content row navbar d-flex">
@@ -69,6 +70,7 @@
             </div>
         </header>
 
+        <!-- Search and product -->
         <div class="search-and-product mx-auto">
             <div class="container-fluid">
                 <div class="row">
@@ -106,6 +108,35 @@
                     <div class="col-md-7 bg-secondary">
                         FF
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Using -->
+        <div class="container">
+            <div class="preservation-container">
+                <h4 class="title"><span>Đơn hàng của bạn sẽ được bảo quản như thế nào?</span></h4>
+                <span>
+                    <p class="font16">ShopeeFood sẽ bảo quản đơn của bạn bằng túi và thùng để chống nắng mưa,giữ nhiệt... trên đường đi một cách tốt nhất.</p>
+                </span>
+                <img src="./img/using1.png" alt="preservation">
+            </div>
+
+            <div class="preservation-container img-right">
+                <h4 class="title"><span>ShopeeFood Merchant App</span></h4>
+                <span>
+                    <p class="font14">
+                        - <b>ShopeeFood Merchant</b> là ứng dụng quản lý đơn hàng cho các nhà hàng đối tác của dịch vụ đặt món tận nơi
+                    </p>
+                    <p class="font14">
+                        - <b>ShopeeFood.vn</b> luôn sẵn sàng hợp tác với các nhà hàng, quán ăn, cafe... để mở rộng kinh doanh cũng như gia tăng khách hàng. Hãy kết nối vào hệ thống đặt và giao hàng để giảm bớt chi phí quản lý, vận hành, marketing, công nghệ...
+                        <br>
+                        Đăng ký tham gia: 
+                        <b><a class="text-decoration-none " href="#">tại đây</a></b>
+                    </p>
+                </span>
+                <div class="img-using">
+                    <img src="./img/using2.png" alt="preservation" width="294px">
                 </div>
             </div>
         </div>
