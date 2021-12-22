@@ -67,9 +67,9 @@ body {
 
 /* CSS main */
 .home_page{
-    
+    display: flex;
+    justify-content: space-between;
     margin-top: 30px;
-   
     margin-left: 204px;
 }
 
@@ -100,6 +100,11 @@ body {
 }
 
 /*///////////////////////////////////////////*/
+
+
+
+
+
 .home-page-category-list {
     border-radius: 4px;
     overflow: hidden;
@@ -133,13 +138,78 @@ body {
     display: flex;
     align-items: center;
     
-   
+    
     
     color: #999;
    
     
 }
 
+/*CSS home_page_right*/
+
+
+.home-page__block__right{
+    
+    display: flex;
+    
+    margin-left: 16px;
+}
+
+.feature-item__thumb{
+    width: 818px ;
+    height: 280px;
+}
+
+
+
+.top-feature-heading-homepage h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    font-family: Roboto;
+    border: none;
+    margin: 0;
+    
+    padding-top: 10px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.top-feature-heading-homepage .border {
+    background-color: #e73948;
+    height: 3px;
+    width: 120px;
+    margin: auto;
+}
+
+.top-feature-deal-item {
+    width: 100%;
+    position: relative;
+}
+
+.feature-item {
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    z-index: 0;
+}
+
+.top-deal-suggest {
+    width: 100%;
+    position: relative;
+    
+    display: flex;
+    
+    flex-direction: row;
+}
+
+.top-deal-suggest .deal-wrapper {
+    width: 33.3333%;
+    max-width: 33.333%;
+    min-width: 33.333%;
+}
 
 
 

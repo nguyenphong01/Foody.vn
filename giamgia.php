@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Thông tin khuyến mãi, giảm giá, sale, ưu đãi, coupon, voucher... về ăn uống, thời trang, mỹ phẩm, làm đẹp năm 2019 trên toàn quốc</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -184,11 +184,130 @@
               </div>
             </a>
           </li>
-          
         </ul>
-
-       
       </div>  
+
+
+
+      <div class="home-page__block__right">
+        <div class="c">
+          <div class="top-feature-heading-homepage">
+            <h2>MỚI &amp; HOT</h2>
+            <div class="border">
+
+            </div>
+          </div>
+          <!--<div class="home-page__block__right_top_feature">
+            <div class="top-feature-col-left">
+              <div class="top-feature-deal-item">
+                <a class="feature-item" href="/khuyen-mai/king-bbq/king-bbq-giam-den-20-set-buffet-0?internal=home-trending">
+                  <img class="feature-item__thumb" alt="JAMJA tiết kiệm hơn" src="https://img.jamja.vn/jamja-prod/6-770903.jpg?w=556">
+                  <img src="/assets/images/img-gradient.png" alt="JAMJA tiết kiệm hơn" class="gradient">
+                  <div class="deal-item-content">
+                    <div class="feature-item__content__wrapper">
+                      <div class="btn feature-item__cta">Đặt chỗ</div>
+                      <div class="text-center">
+                        <div class="feature-item__brand-name">King BBQ</div>
+                        <div class="feature-item__highlight">-20%*</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+         <div class="top-feature-col-right">
+              <div class="top-feature-deal-item">
+                <a class="feature-item" href="/khuyen-mai/phanh-nail/phanh-nail-chi-39k-combo-nhat-da-sua-mong-0?internal=home-trending">
+                  <img class="feature-item__thumb" alt="JAMJA tiết kiệm hơn" src="https://img.jamja.vn/jamja-prod/z2983710262535-4d0e45c9d8def9246a180ae8b57501d5.jpg?w=556">
+                  <img src="/assets/images/img-gradient.png" alt="JAMJA tiết kiệm hơn" class="gradient">
+                  <div class="deal-item-content">
+                    <div class="feature-item__content__wrapper">
+                      <div class="btn feature-item__cta">Đặt chỗ</div>
+                      <div class="text-center">
+                        <div class="feature-item__brand-name">Phanh Nail Home</div>
+                        <div class="feature-item__highlight">-35%</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="top-feature-deal-item">
+                <a class="feature-item" href="/khuyen-mai/phanh-nail/phanh-nail-chi-99k-combo-lam-mong-0?internal=home-trending">
+                  <img class="feature-item__thumb" alt="JAMJA tiết kiệm hơn" src="https://img.jamja.vn/jamja-prod/z2983790880521-04b91d26d2e2674d05f6b93ed272a752.jpg?w=556">
+                  <img src="/assets/images/img-gradient.png" alt="JAMJA tiết kiệm hơn" class="gradient">
+                  <div class="deal-item-content">
+                    <div class="feature-item__content__wrapper">
+                      <div class="btn feature-item__cta">Đặt chỗ</div>
+                      <div class="text-center">
+                        <div class="feature-item__brand-name">Phanh Nail Home</div>
+                        <div class="feature-item__highlight">-15%</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div>
+          <div class="top-feature-heading-homepage">
+            <h2 class="should-see">CÓ THỂ BẠN NÊN XEM</h2>
+            <div class="border">
+
+            </div>
+          </div>
+          <div class="top-deal-suggest-container">
+            <div class="top-deal-suggest">
+              <div class="deal-wrapper">
+                <a class="feature-item" href="/khuyen-mai/silky-beauty/silky-beauty-chi-tu-69k-son-gel-han-quoc-0?internal=home-pin">
+                  <img class="feature-item__thumb" alt="JAMJA tiết kiệm hơn" src="https://img.jamja.vn/jamja-prod/z2595740790865-f7c647ac96e114240296d9750f74ceb4.jpg?w=556">
+                  <img src="/assets/images/img-gradient.png" alt="JAMJA tiết kiệm hơn" class="gradient">
+                  <div class="deal-item-content">
+                    <div class="feature-item__content__wrapper">
+                      <div class="btn feature-item__cta">Đặt chỗ</div>
+                      <div class="text-center">
+                        <div class="feature-item__brand-name">Silky Beauty</div>
+                        <div class="feature-item__highlight">-61%</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="deal-wrapper">
+                <a class="feature-item" href="/khuyen-mai/ich-hoa-duong/ich-hoa-duong-chi-tu-18k-toan-bo-menu-do-uong-0?internal=home-pin">
+                  <img class="feature-item__thumb" alt="JAMJA tiết kiệm hơn" src="https://img.jamja.vn/jamja-prod/d9e6fb07-b0f1-49ed-bd61-ff8729f25028-68709.png?w=556">
+                  <img src="/assets/images/img-gradient.png" alt="JAMJA tiết kiệm hơn" class="gradient">
+                  <div class="deal-item-content">
+                    <div class="feature-item__content__wrapper">
+                      <div class="btn feature-item__cta">Đặt chỗ</div>
+                      <div class="text-center">
+                        <div class="feature-item__brand-name">Ích Hòa Đường </div>
+                        <div class="feature-item__highlight">-30%</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="deal-wrapper">
+                <a class="feature-item" href="/khuyen-mai/kimho-bbq-buffet-nuong-lau/kimho-bbq-buffet-nuong-lau-chi-tu-139k-buffet-nuong-lau-0?internal=home-pin">
+                  <img class="feature-item__thumb" alt="JAMJA tiết kiệm hơn" src="https://img.jamja.vn/jamja-prod/86281672-707130166491622-9175386415955968000-o.jpg?w=556">
+                  <img src="/assets/images/img-gradient.png" alt="JAMJA tiết kiệm hơn" class="gradient">
+                  <div class="deal-item-content">
+                    <div class="feature-item__content__wrapper">
+                      <div class="btn feature-item__cta">Đặt chỗ</div>
+                      <div class="text-center">
+                        <div class="feature-item__brand-name">KIMHO BBQ -  Buffet Nướng &amp; Lẩu</div>
+                        <div class="feature-item__highlight">-13%*</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
 </div>
 
