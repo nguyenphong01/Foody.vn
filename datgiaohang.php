@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/datgiaohang.css">
@@ -117,7 +118,8 @@
             <div class="preservation-container">
                 <h4 class="title"><span>Đơn hàng của bạn sẽ được bảo quản như thế nào?</span></h4>
                 <span>
-                    <p class="font16">ShopeeFood sẽ bảo quản đơn của bạn bằng túi và thùng để chống nắng mưa,giữ nhiệt... trên đường đi một cách tốt nhất.</p>
+                    <p class="font15">ShopeeFood sẽ bảo quản đơn của bạn bằng túi và thùng để chống nắng mưa,giữ
+                        nhiệt... trên đường đi một cách tốt nhất.</p>
                 </span>
                 <img src="./img/using1.png" alt="preservation">
             </div>
@@ -126,17 +128,101 @@
                 <h4 class="title"><span>ShopeeFood Merchant App</span></h4>
                 <span>
                     <p class="font14">
-                        - <b>ShopeeFood Merchant</b> là ứng dụng quản lý đơn hàng cho các nhà hàng đối tác của dịch vụ đặt món tận nơi
+                        - <b>ShopeeFood Merchant</b> là ứng dụng quản lý đơn hàng cho các nhà hàng đối tác của dịch vụ
+                        đặt món tận nơi
                     </p>
                     <p class="font14">
-                        - <b>ShopeeFood.vn</b> luôn sẵn sàng hợp tác với các nhà hàng, quán ăn, cafe... để mở rộng kinh doanh cũng như gia tăng khách hàng. Hãy kết nối vào hệ thống đặt và giao hàng để giảm bớt chi phí quản lý, vận hành, marketing, công nghệ...
+                        - <b>ShopeeFood.vn</b> luôn sẵn sàng hợp tác với các nhà hàng, quán ăn, cafe... để mở rộng kinh
+                        doanh cũng như gia tăng khách hàng. Hãy kết nối vào hệ thống đặt và giao hàng để giảm bớt chi
+                        phí quản lý, vận hành, marketing, công nghệ...
                         <br>
-                        Đăng ký tham gia: 
-                        <b><a class="text-decoration-none " href="#">tại đây</a></b>
+                        Đăng ký tham gia:
+                        <b><a href="#">tại đây</a></b>
                     </p>
                 </span>
                 <div class="img-using">
                     <img src="./img/using2.png" alt="preservation" width="294px">
+                </div>
+            </div>
+
+            <div class="preservation-container img-right">
+                <h4 class="title">
+                    <a href="#">
+                        <span>
+                            <span style="color: #EE4D2D;font-weight: bold;">
+                            ShopeeFood.vn</span> Hợp tác nhân viên giao nhận - ShopeeFood -
+                            Driver
+                        </span>
+                    </a>
+                </h4>
+                <span>
+                    <p class="font15">
+                        Giúp bạn tăng thu nhập trong thời gian rảnh rỗi
+                    </p>
+                    <p class="font15">
+                    <span style="color: #EE4D2D;font-weight: bold;">ShopeeFood</span>
+                    tìm kiếm hợp tác với các cá nhân để thực hiện việc giao hàng, chúng tôi sẽ cung cấp ứng dụng (app), một số dụng cụ cần thiết
+                    để bạn có thể tiếp nhận và giao hàng,kiếm thêm thu nhập.
+                    <br>
+                    Đăng kí tham gia :
+                    <a href="" style="color: #4D77A2;font-weight: bold;" class="text-decoration-none">tại đây</a>
+                    hoặc gửi Email qua
+                    <a href="" style="color: #4D77A2;font-weight: bold;" class="text-decoration-none">tuyendung@gofast.vn</a>
+                    - hoặc gọi qua số điện thoại (028) 7109 9179.
+                    </p>
+                </span>
+                <div class="img-using">
+                    <img src="./img/using3.png" alt="preservation" width="170px" class="bg-deliverynow">
+                </div>
+            </div>
+
+            <div class="footer-link">
+                <p class="footer-link__head">Danh mục</p>
+                <div class="footer-link__body">
+                    <div class="footer-link__item">
+                        <p class="footer-link__title">Thuốc</p>
+                        <ul class="footer-link__list">
+                            <a href="#" class="footer-link__list-item">Hóa mỹ phẩm</a>
+                            <a href="#" class="footer-link__list-item">BCS</a>
+                            <a href="#" class="footer-link__list-item">Thiết bị</a>
+                            <a href="#" class="footer-link__list-item">Thuốc tây</a>
+                            <a href="#" class="footer-link__list-item">Khẩu trang</a>
+                            <a href="#" class="footer-link__list-item">Khẩn cấp</a>
+                        </ul>
+                    </div>
+
+                    <div class="footer-link__item">
+                        <p class="footer-link__title">Thú cưng</p>
+                        <ul class="footer-link__list">
+                            <a href="#" class="footer-link__list-item">Thú cưng</a>
+                        </ul>
+                    </div>
+
+                    <div class="footer-link__item">
+                        <p class="footer-link__title">Sản phẩm</p>
+                        <ul class="footer-link__list">
+                            <a href="#" class="footer-link__list-item">Mỹ phẩm</a>
+                            <a href="#" class="footer-link__list-item">Đồ chơi</a>
+                            <a href="#" class="footer-link__list-item">Sữa</a>
+                            <a href="#" class="footer-link__list-item">Tã bỉm</a>
+                            <a href="#" class="footer-link__list-item">Dụng cụ</a>
+                            <a href="#" class="footer-link__list-item">Quần áo</a>
+                            <a href="#" class="footer-link__list-item">Giầy dép</a>
+                            <a href="#" class="footer-link__list-item">Điện tử</a>
+                            <a href="#" class="footer-link__list-item">Trang sức</a>
+                        </ul>
+                    </div>
+
+                    <div class="footer-link__item">
+                        <p class="footer-link__title">Hoa</p>
+                        <ul class="footer-link__list">
+                            <a href="#" class="footer-link__list-item">Chia buồn</a>
+                            <a href="#" class="footer-link__list-item">Cây cảnh</a>
+                            <a href="#" class="footer-link__list-item">Chúc mừng</a>
+                            <a href="#" class="footer-link__list-item">Sinh nhật</a>
+                            <a href="#" class="footer-link__list-item">Tình yêu</a>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
