@@ -97,16 +97,16 @@ body {
 
 .category-menu-item_right{
     margin-left: 105px;
-    
 }
-
-
 
 /*///////////////////////////////////////////*/
 
-
-
-
+.home-page__block__right{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 30px;
+}
 
 .home-page-category-list {
     border-radius: 4px;
@@ -117,18 +117,17 @@ body {
     width: 279px;
 }
 
-.category-menu-item--header {
+.home-page-category-list .category-menu-item--header {
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 40px;
 }
 
-.category-menu-item__url {
+.home-page-category-list .category-menu-item--header .category-menu-item__url {
     color: #454545;
-    
 }
 
-.category-menu-item {
+.home-page-category-list .category-menu-item {
     position: relative;
     line-height: 40px;
     min-height: 40px;
@@ -137,7 +136,7 @@ body {
     border-bottom: 1px solid #ededed;
 }
 
-.category-menu-item__url {
+.home-page-category-list .category-menu-item__url {
     
     display: flex;
     align-items: center;
@@ -152,11 +151,48 @@ body {
 /*CSS home_page_right*/
 
 
-.home-page__block__right{
+.home-page__block__right {
     
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     
-    margin-left: 16px;
+    flex-direction: column;
+    position: relative;
+    
+    justify-content: space-between;
+}
+
+.home-page__block__right>div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+    flex-direction: column;
+}
+.top-feature-heading-homepage {
+    padding: 0 30px;
+    max-width: 50%;
+   
+    align-self: center;
+    margin-bottom: 14px;
+}
+.top-feature-heading-homepage h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    font-family: Roboto;
+    border: none;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    text-align: center;
 }
 
 
@@ -164,11 +200,19 @@ body {
 
 
 
-
-
-
-
-
+/*///////////////////////////////////////////////////////////////////////////*/
+.home_page_3 h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    font-family: Roboto;
+    border: none;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    
+}
 
 
 
