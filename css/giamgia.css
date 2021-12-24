@@ -101,9 +101,12 @@ body {
 
 /*///////////////////////////////////////////*/
 
-
-
-
+.home-page__block__right{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 30px;
+}
 
 .home-page-category-list {
     border-radius: 4px;
@@ -148,20 +151,37 @@ body {
 /*CSS home_page_right*/
 
 
-.home-page__block__right{
+.home-page__block__right {
     
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     
-    margin-left: 16px;
+    flex-direction: column;
+    position: relative;
+    
+    justify-content: space-between;
 }
 
-.feature-item__thumb{
-    width: 818px ;
-    height: 280px;
+.home-page__block__right>div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+    flex-direction: column;
 }
-
-
-
+.top-feature-heading-homepage {
+    padding: 0 30px;
+    max-width: 50%;
+   
+    align-self: center;
+    margin-bottom: 14px;
+}
 .top-feature-heading-homepage h2 {
     font-size: 18px;
     font-weight: 700;
@@ -169,56 +189,30 @@ body {
     font-family: Roboto;
     border: none;
     margin: 0;
-    
+    text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 8px;
     text-align: center;
 }
 
-.top-feature-heading-homepage .border {
-    background-color: #e73948;
-    height: 3px;
-    width: 120px;
-    margin: auto;
-}
 
-.top-feature-deal-item {
-    width: 100%;
-    position: relative;
-}
 
-.feature-item {
-    width: 100%;
-    position: relative;
-    display: block;
-    overflow: hidden;
-    font-size: 14px;
-    z-index: 0;
-}
 
-.top-deal-suggest {
-    width: 100%;
-    position: relative;
+
+
+/*///////////////////////////////////////////////////////////////////////////*/
+.home_page_3 h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    font-family: Roboto;
+    border: none;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 8px;
     
-    display: flex;
-    
-    flex-direction: row;
 }
-
-.top-deal-suggest .deal-wrapper {
-    width: 33.3333%;
-    max-width: 33.333%;
-    min-width: 33.333%;
-}
-
-
-
-
-
-
-
-
-
 
 
 
