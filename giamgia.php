@@ -72,64 +72,141 @@
     </header>
 
     <main class="container">
-        <div class="home_page_1">
+        <div class="home_page_1 mx-5 row">
             <div class="col-md-4 mt-4 mx-5" style="width: 279px;">
                 <div class="list-group">
                     <a href="#" class="list-group-item list-group-item-action bg-danger text-white " style="height: 51px;" aria-current="true">Đặt chỗ khuyến mãi</a>
-
                 </div>
                 <div class="list-group mt-3">
-                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">Danh mục</a>
-                    <a href="#" class="list-group-item list-group-item-action ">Đồ ăn</a>
-                    <a href="#" class="list-group-item list-group-item-action">Đồ uống</a>
-                    <a href="#" class="list-group-item list-group-item-action">Giải trí</a>
-                    <a href="#" class="list-group-item list-group-item-action ">Làm đẹp</a>
-                    <a href="#" class="list-group-item list-group-item-action ">Khác</a>
+                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">Danh mục</a>  
+                    <a href="https://jamja.vn/an" class="list-group-item list-group-item-action ">Đồ ăn</a>                  
+                    <a href="https://jamja.vn/uong" class="list-group-item list-group-item-action">Đồ uống</a>
+                    <a href="https://jamja.vn/giai-tri" class="list-group-item list-group-item-action">Giải trí</a>
+                    <a href="https://jamja.vn/lam-dep" class="list-group-item list-group-item-action ">Làm đẹp</a>
+                    <a href="https://jamja.vn/khac" class="list-group-item list-group-item-action ">Khác</a>
                 </div>
                 <div class="list-group mt-3">
                     <a href="#" class="list-group-item list-group-item-action" aria-current="true">Khám phá</a>
-                    <a href="#" class="list-group-item list-group-item-action ">Độc quyền - Chỉ có tại JAMJA</a>
-                    <a href="#" class="list-group-item list-group-item-action">Bộ sưu tập</a>
-                    <a href="#" class="list-group-item list-group-item-action">Trung tâm thương mại</a>
-                   
+                    <a href="https://jamja.vn/doc-quyen" class="list-group-item list-group-item-action ">Độc quyền - Chỉ có tại JAMJA</a>
+                    <a href="https://jamja.vn/bo-suu-tap" class="list-group-item list-group-item-action">Bộ sưu tập</a>
+                    <a href="https://jamja.vn/trung-tam-thuong-mai" class="list-group-item list-group-item-action">Trung tâm thương mại</a>
                 </div>
+            </div>
+            <div class="col-md-8 ">
+                <div class="c ">
+                    <h2 class="should-see text-secondary">CÓ THỂ BẠN NÊN XEM</h2>
+                        <div class="border mb-3">
 
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <a class="figure" href="https://jamja.vn/khuyen-mai/luxspa/luxspachi-99k-tri-mun-don-tet-cho-da-dau-mun-an-mun-viem-mun-dau-den-0?internal=home-pin">
+                            
+                            <img src="img/LuxSpa.png" class="figure-img img-fluid rounded" alt="...">
+                            <h5>Đặt chỗ</h5>
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <a class="figure" href="https://jamja.vn/khuyen-mai/ich-hoa-duong/ich-hoa-duong-chi-tu-18k-toan-bo-menu-do-uong-0?internal=home-pin">
+                            <img src="img/2.png" class="figure-img img-fluid rounded" alt="...">
+                            <h5>Đặt chỗ</h5>
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <a class="figure" href="https://jamja.vn/khuyen-mai/kimho-bbq-buffet-nuong-lau/kimho-bbq-buffet-nuong-lau-chi-tu-139k-buffet-nuong-lau-0?internal=home-pin">
+                            <img src="img/3.jpg" class="figure-img img-fluid rounded" alt="...">
+                            <h5>Đặt chỗ</h5>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="home_page_2 mx-5">
-            <div class="col-md">
-                <img src="img/jamja-xmas.png" class="img-fluid mt-5" alt="...">
+            <div class="col-md-11 mx-5">
+                <img src="img/jamja-xmas.png" class="img-fluid " alt="...">
             </div>
         </div>
         <div class="home_page_3 mx-5">
-            <div class="col-md-3">
+            <div class="col-md-3 mx-5 mt-3">
                 <h2 class="should-see text-secondary">DÀNH CHO NGƯỜI DÙNG MỚI</h2>
-                    <div class="border">
+                    <div class="border mb-3">
 
                     </div>
             </div>
-            <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img src="img/sharetea.png" class="card-img-top" alt="...">
-                <img src="img/danhchonguoidungmoi.jpg" class="card-img" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
+            <div class="col-md-4 mx-5">
+                <div class="card" style="width: 351px;">
+                    <img src="img/sharetea.png" class="card-img-top" alt="...">
+                    <img src="img/danhchonguoidungmoi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="/khuyen-mai/sharetea/sharetea-chi-1d-tra-xanh-sua-0?internal=new-user">
+                            <div class="deal-item__footer-badge  "style="height: 10px;">
+                                <span class="jicon_booking_o"></span>Đặt chỗ
+                            </div>Sharetea: CHỈ 1Đ TRÀ XANH SỮA
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="card-body">
+                        <p class="card-text">104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="home_page_4">
-            
+        <div class="home_page_4 mx-5">
+            <div class="col-md-3 mx-5 mt-3">
+                <h2 class="should-see text-secondary">ĐẶT CHỖ MỚI NHẤT</h2>
+                    <div class="border mb-3">
+
+                    </div>
+
+            </div>
+            <div class="col-md-4 mx-5">
+                <div class="card" style="width: 351px;">
+                    <img src="img/sharetea.png" class="card-img-top" alt="...">
+                    <img src="img/danhchonguoidungmoi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="/khuyen-mai/sharetea/sharetea-chi-1d-tra-xanh-sua-0?internal=new-user">
+                            <div class="deal-item__footer-badge  "style="height: 10px;">
+                                <span class="jicon_booking_o"></span>Đặt chỗ
+                            </div>Sharetea: CHỈ 1Đ TRÀ XANH SỮA
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="card-body">
+                        <p class="card-text">104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 351px;" >
+                    <img src="img/sharetea.png" class="card-img-top" alt="...">
+                    <img src="img/danhchonguoidungmoi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="/khuyen-mai/sharetea/sharetea-chi-1d-tra-xanh-sua-0?internal=new-user">
+                            <div class="deal-item__footer-badge  "style="height: 10px;">
+                                <span class="jicon_booking_o"></span>Đặt chỗ
+                            </div>Sharetea: CHỈ 1Đ TRÀ XANH SỮA
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="card-body">
+                        <p class="card-text">104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 351px;">
+                    <img src="img/sharetea.png" class="card-img-top" alt="...">
+                    <img src="img/danhchonguoidungmoi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="/khuyen-mai/sharetea/sharetea-chi-1d-tra-xanh-sua-0?internal=new-user">
+                            <div class="deal-item__footer-badge  "style="height: 10px;">
+                                <span class="jicon_booking_o"></span>Đặt chỗ
+                            </div>Sharetea: CHỈ 1Đ TRÀ XANH SỮA
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="card-body">
+                        <p class="card-text">104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
