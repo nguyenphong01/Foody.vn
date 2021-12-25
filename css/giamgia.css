@@ -7,14 +7,10 @@ body {
     
 }
 
-
-
-
 .text{
     color:#fff;
     margin-left: 204px;
 }
-
 
 .container-topbar {
     height: 32px;
@@ -24,8 +20,6 @@ body {
     align-items: center;
 }
 .container-bottom{
-    
-    
     display: flex;  
     align-items: center;
     height: 100px;
@@ -36,7 +30,6 @@ body {
 .logo{
     margin-left: 204px;
 }
-
 
 .search-box{
     display: flex;
@@ -66,123 +59,21 @@ body {
 
 
 /* CSS main */
-.home_page{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 204px;
-}
 
+/*///////////////////////////////////////////////////////////////////////////*/
 
-
-.menu_first{
-    display: flex;
-    background-color:#e73948 ;
-    width: 279px;
-    height: 52px;
-    border-radius: 4px;
-}
-
-.category-menu-item{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
+.c{
     
+    margin-top: 300px;
 }
 
-.category-menu-item_left{
-    margin-left: 5px;
-}
-
-.category-menu-item_right{
-    margin-left: 105px;
-}
-
-/*///////////////////////////////////////////*/
-
-.home-page__block__right{
-    display: flex;
-    align-items: center;
-    
-    margin-top: 30px;
-}
-
-.home-page-category-list {
-    border-radius: 4px;
-    overflow: hidden;
-    margin-top: 20px;
-    padding: 0;
-    list-style: none;
-    width: 279px;
-}
-
-.home-page-category-list .category-menu-item--header {
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-left: 40px;
-}
-
-.home-page-category-list .category-menu-item--header .category-menu-item__url {
-    color: #454545;
-}
-
-.home-page-category-list .category-menu-item {
+.figure{
     position: relative;
-    line-height: 40px;
-    min-height: 40px;
-    background-color: #fff;
-    color: #666;
-    border-bottom: 1px solid #ededed;
 }
-
-.home-page-category-list .category-menu-item__url {
-    
-    display: flex;
-    align-items: center;
-    
-    
-    
-    color: #999;
-   
-    
+h5{
+    position: absolute;
 }
-
-/*CSS home_page_right*/
-
-
-.home-page__block__right {
-    
-    flex-grow: 1;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    
-    flex-direction: column;
-    position: relative;
-    
-    justify-content: space-between;
-}
-
-.home-page__block__right>div {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    
-    flex-direction: column;
-}
-.top-feature-heading-homepage {
-    padding: 0 30px;
-    max-width: 50%;
-   
-    align-self: center;
-    margin-bottom: 14px;
-}
-.top-feature-heading-homepage h2 {
+.home_page_3 h2{
     font-size: 18px;
     font-weight: 700;
     color: #666;
@@ -192,16 +83,9 @@ body {
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 8px;
-    text-align: center;
+    
 }
-
-
-
-
-
-
-/*///////////////////////////////////////////////////////////////////////////*/
-.home_page_3 h2{
+.home_page_4 h2{
     font-size: 18px;
     font-weight: 700;
     color: #666;
