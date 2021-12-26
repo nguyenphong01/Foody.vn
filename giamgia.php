@@ -71,150 +71,142 @@
         </div>
     </header>
 
-    <main class="container">
-        <div class="home_page_1 mx-5 row">
-            <div class="col-md-4 mt-4 mx-5" style="width: 279px;">
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action bg-danger text-white " style="height: 51px;" aria-current="true">Đặt chỗ khuyến mãi</a>
-                </div>
-                <div class="list-group mt-3">
-                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">Danh mục</a>  
-                    <a href="https://jamja.vn/an" class="list-group-item list-group-item-action ">Đồ ăn</a>                  
-                    <a href="https://jamja.vn/uong" class="list-group-item list-group-item-action">Đồ uống</a>
-                    <a href="https://jamja.vn/giai-tri" class="list-group-item list-group-item-action">Giải trí</a>
-                    <a href="https://jamja.vn/lam-dep" class="list-group-item list-group-item-action ">Làm đẹp</a>
-                    <a href="https://jamja.vn/khac" class="list-group-item list-group-item-action ">Khác</a>
-                </div>
-                <div class="list-group mt-3">
-                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">Khám phá</a>
-                    <a href="https://jamja.vn/doc-quyen" class="list-group-item list-group-item-action ">Độc quyền - Chỉ có tại JAMJA</a>
-                    <a href="https://jamja.vn/bo-suu-tap" class="list-group-item list-group-item-action">Bộ sưu tập</a>
-                    <a href="https://jamja.vn/trung-tam-thuong-mai" class="list-group-item list-group-item-action">Trung tâm thương mại</a>
-                </div>
-            </div>
-            <div class="col-md-8 ">
-                <div class="c ">
-                    <h2 class="should-see text-secondary">CÓ THỂ BẠN NÊN XEM</h2>
-                        <div class="border mb-3">
-
+    <div id="content">
+        <div class="container">
+            <div class="home-page">
+                <div class="home-page__block">
+                    <div class="home-page__block__left">
+                        <div class="category-list-menu">
+                            <ul class="home-page-category-list first">
+                                <li class="category-menu-item category-menu-item--booking-table">
+                                    <a class="category-menu-item__url" href="/dat-cho">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons">credit_score</span>
+                                        </div>
+                                        <span>Đặt chỗ khuyến mãi</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="home-page-category-list">
+                                <li class="category-menu-item category-menu-item--header">
+                                    <a href="javascript:;" class="category-menu-item__url">
+                                        <span>Danh mục</span>
+                                    </a>
+                                </li>
+                                <li class="category-menu-item">
+                                    <a class="category-menu-item__url" href="/an">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons-outlined">restaurant</span>
+                                        </div>
+                                        <span>Đồ ăn</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="category-menu-item">
+                                    <a class="category-menu-item__url" href="/uong">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons-outlined">local_cafe</span>
+                                        </div>
+                                        <span>Đồ uống</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="category-menu-item">
+                                    <a class="category-menu-item__url" href="/giai-tri">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons-outlined">theaters</span>
+                                        </div>
+                                        <span>Giải trí</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="category-menu-item">
+                                    <a class="category-menu-item__url" href="/lam-dep">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons-outlined">spa</span>
+                                        </div>
+                                        <span>Làm đẹp</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="category-menu-item">
+                                    <a class="category-menu-item__url" href="/khac">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons-outlined">more_horiz</span>
+                                        </div>
+                                            <span>Khác</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="home-page-category-list">
+                                <li class="category-menu-item category-menu-item--header">
+                                    <a href="javascript:;" class="category-menu-item__url">
+                                        <span>KHÁM PHÁ</span>
+                                    </a>
+                                </li>
+                                <li class="category-menu-item">
+                                    <a class="category-menu-item__url" href="/an">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons-outlined">military_tech</span>
+                                        </div>
+                                        <span>Độc quyền - Chỉ có tại JAMJA</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="category-menu-item">
+                                    <a class="category-menu-item__url" href="/uong">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons-outlined">cases</span>
+                                        </div>
+                                        <span>Bộ sưu tập</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="category-menu-item">
+                                    <a class="category-menu-item__url" href="/giai-tri">
+                                        <div class="category-menu-item__url__left">
+                                            <span class="material-icons-outlined">store_mall_directory</span>
+                                        </div>
+                                        <span>Trung tâm thương mại</span>
+                                        <div class="category-menu-item__url__right">
+                                            <span class="material-icons">chevron_right</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                </div>
-                <div class="row">
-                    <div class="col-md">
-                        <a class="figure" href="https://jamja.vn/khuyen-mai/luxspa/luxspachi-99k-tri-mun-don-tet-cho-da-dau-mun-an-mun-viem-mun-dau-den-0?internal=home-pin">
-                            
-                            <img src="img/LuxSpa.png" class="figure-img img-fluid rounded" alt="...">
-                            <h5>Đặt chỗ</h5>
-                        </a>
-                    </div>
-                    <div class="col-md">
-                        <a class="figure" href="https://jamja.vn/khuyen-mai/ich-hoa-duong/ich-hoa-duong-chi-tu-18k-toan-bo-menu-do-uong-0?internal=home-pin">
-                            <img src="img/2.png" class="figure-img img-fluid rounded" alt="...">
-                            <h5>Đặt chỗ</h5>
-                        </a>
-                    </div>
-                    <div class="col-md">
-                        <a class="figure" href="https://jamja.vn/khuyen-mai/kimho-bbq-buffet-nuong-lau/kimho-bbq-buffet-nuong-lau-chi-tu-139k-buffet-nuong-lau-0?internal=home-pin">
-                            <img src="img/3.jpg" class="figure-img img-fluid rounded" alt="...">
-                            <h5>Đặt chỗ</h5>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="home_page_2 mx-5">
-            <div class="col-md-11 mx-5">
-                <img src="img/jamja-xmas.png" class="img-fluid " alt="...">
-            </div>
-        </div>
-        <div class="home_page_3 mx-5">
-            <div class="col-md-3 mx-5 mt-3">
-                <h2 class="should-see text-secondary">DÀNH CHO NGƯỜI DÙNG MỚI</h2>
-                    <div class="border mb-3">
-
-                    </div>
-            </div>
-            <div class="col-md-4 mx-5">
-                <div class="card" style="width: 351px;">
-                    <img src="img/sharetea.png" class="card-img-top" alt="...">
-                    <img src="img/danhchonguoidungmoi.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="/khuyen-mai/sharetea/sharetea-chi-1d-tra-xanh-sua-0?internal=new-user">
-                            <div class="deal-item__footer-badge  "style="height: 10px;">
-                                <span class="jicon_booking_o"></span>Đặt chỗ
-                            </div>Sharetea: CHỈ 1Đ TRÀ XANH SỮA
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="card-body">
-                        <p class="card-text">104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="home_page_4 mx-5">
-            <div class="col-md-3 mx-5 mt-3">
-                <h2 class="should-see text-secondary">ĐẶT CHỖ MỚI NHẤT</h2>
-                    <div class="border mb-3">
-
-                    </div>
-
-            </div>
-            <div class="col-md-4 mx-5">
-                <div class="card" style="width: 351px;">
-                    <img src="img/sharetea.png" class="card-img-top" alt="...">
-                    <img src="img/danhchonguoidungmoi.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="/khuyen-mai/sharetea/sharetea-chi-1d-tra-xanh-sua-0?internal=new-user">
-                            <div class="deal-item__footer-badge  "style="height: 10px;">
-                                <span class="jicon_booking_o"></span>Đặt chỗ
-                            </div>Sharetea: CHỈ 1Đ TRÀ XANH SỮA
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="card-body">
-                        <p class="card-text">104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 351px;" >
-                    <img src="img/sharetea.png" class="card-img-top" alt="...">
-                    <img src="img/danhchonguoidungmoi.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="/khuyen-mai/sharetea/sharetea-chi-1d-tra-xanh-sua-0?internal=new-user">
-                            <div class="deal-item__footer-badge  "style="height: 10px;">
-                                <span class="jicon_booking_o"></span>Đặt chỗ
-                            </div>Sharetea: CHỈ 1Đ TRÀ XANH SỮA
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="card-body">
-                        <p class="card-text">104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 351px;">
-                    <img src="img/sharetea.png" class="card-img-top" alt="...">
-                    <img src="img/danhchonguoidungmoi.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="/khuyen-mai/sharetea/sharetea-chi-1d-tra-xanh-sua-0?internal=new-user">
-                            <div class="deal-item__footer-badge  "style="height: 10px;">
-                                <span class="jicon_booking_o"></span>Đặt chỗ
-                            </div>Sharetea: CHỈ 1Đ TRÀ XANH SỮA
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="card-body">
-                        <p class="card-text">104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+    </div>
 
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
 </body>
 

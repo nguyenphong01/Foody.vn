@@ -61,42 +61,307 @@ body {
 /* CSS main */
 
 /*///////////////////////////////////////////////////////////////////////////*/
-
-.c{
-    
-    margin-top: 300px;
+#content{
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    font-size: 14px;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    box-sizing: inherit;
 }
-
-.figure{
+.container{
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    font-size: 14px;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    box-sizing: inherit;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 1140px;
+    max-width: 100%;
 }
-h5{
-    position: absolute;
+.home-page{
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    box-sizing: inherit;
+    font-size: 14px;
+    position: relative;
+    margin-top: 30px;
 }
-.home_page_3 h2{
-    font-size: 18px;
-    font-weight: 700;
-    color: #666;
-    font-family: Roboto;
-    border: none;
+.home-page__block{
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 44px;
+}
+.home-page__block__left{
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    box-sizing: inherit;
+    flex-basis: 25%;
+    margin-right: 15px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.category-list-menu{
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    box-sizing: inherit;
+}
+.home-page-category-list.first{ 
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    box-sizing: inherit;
     margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #e73948;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 0;
+}
+.home-page-category-list.first .category-menu-item{
+    font-size: 14px;
+    list-style: none;
+    box-sizing: inherit;
+    margin: 0;
+    position: relative;
+    line-height: 40px;
+    min-height: 40px;
+    background-color: #e73948!important;
+    color: #fff;
     text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 8px;
+    border-radius: 0;
+    font-weight: 700;
+    height: 50px;
+    border: none;
+}
+.home-page-category-list.first .category-menu-item__url{
+    font-family: Roboto,sans-serif,Tahoma!important;
+    font-size: 14px;   
+    list-style: none;
+    box-sizing: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    touch-action: unset;
+    display: flex;   
+    flex-grow: 1;
+    justify-content: space-between;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 700;
+    transition: all .2s ease-in-out;
+}
+.home-page-category-list.first .category-menu-item__url__left{
+    font-size: 14px;
+    list-style: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 700;
+    box-sizing: inherit;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.category-menu-item__url__right{
+    font-size: 14px;
+    list-style: none;
+    cursor: pointer;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.home-page-category-list{
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    box-sizing: inherit;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.home-page-category-list .category-menu-item--header{
+    font-family: Roboto,sans-serif,Tahoma!important;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    list-style: none;
+    box-sizing: inherit;
+    margin: 0;
+    position: relative;
+    line-height: 40px;
+    min-height: 40px;
+    background-color: #fff;
+    color: #666;
+    border-bottom: 1px solid #ededed;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+.home-page-category-list .category-menu-item--header .category-menu-item__url{
+    font-family: Roboto,sans-serif,Tahoma!important;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    list-style: none;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    touch-action: unset;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    transition: color .2s ease-in-out;
+    cursor: pointer;
+    color: #454545;
+}
+.home-page-category-list .category-menu-item{
+    
+    font-weight: 400;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+
+    list-style: none;
+    box-sizing: inherit;
+    margin: 0;
+    position: relative;
+    line-height: 40px;
+    min-height: 40px;
+    background-color: #fff;
+    color: #666;
+    border-bottom: 1px solid #ededed;
+}
+.home-page-category-list .category-menu-item__url{
+
+    font-weight: 400;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    list-style: none;
+    line-height: 40px;
+    box-sizing: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    touch-action: unset;
+    color: #454545;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    transition: color .2s ease-in-out;
+    cursor: pointer;
+}
+.home-page-category-list .category-menu-item__url__left{
+    
+    font-weight: 400;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    -webkit-box-direction: normal;
+    list-style: none;
+    line-height: 40px;
+    cursor: pointer;
+    box-sizing: inherit;
+    min-width: 40px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    transition: all .2s ease-in-out;
+}
+.home-page-category-list .category-menu-item__url>span{
+  
+    flex-grow: 1;
+}
+.home-page-category-list .category-menu-item__url__right{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-weight: 400;
+    font-family: Roboto,sans-serif,Tahoma!important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    -webkit-box-direction: normal;
+    list-style: none;
+    line-height: 40px;
+    cursor: pointer;
+    box-sizing: inherit;
+    min-width: 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #999;
     
 }
-.home_page_4 h2{
-    font-size: 18px;
-    font-weight: 700;
-    color: #666;
-    font-family: Roboto;
-    border: none;
-    margin: 0;
-    text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 8px;
+.home-page-category-list .category-menu-item__url__right [class^=jicon_]{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-rendering: optimizeLegibility;
+    -webkit-box-direction: normal;
+    list-style: none;
+    cursor: pointer;
+    color: #999;
+    box-sizing: inherit;
     
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 10px;
 }
+
 
 
 
