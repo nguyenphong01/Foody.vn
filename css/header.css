@@ -1,0 +1,137 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+
+body {
+    background: #eee;
+    font-family: arial;
+    position: relative;
+    font-size: 12px;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.container-topbar{
+    background: #333;
+    color: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    height: 32px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+.container-topbar a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.container-topbar .topbar a.current {
+    background: #fff;
+    color: #333;
+}
+.container-topbar .topbar a {
+    padding: 8px 50px;
+    display: block;
+    color: #ddd;
+    float: left;
+}
+
+
+
+.header-toolbar{
+    width: 100%;
+    height: 51px;
+    background: #fff;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    right: 0;
+    bottom: 0;
+
+}
+.left-header-toolbar{
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    margin-left: 75px;
+    margin: 75px;
+}
+.left-header-toolbar a {
+    margin: 10px;
+}
+
+.left-header-toolbar select {
+    margin: 3px;
+    text-align: center;
+}
+.left-header-toolbar .search-box{
+    margin: 3px;
+    padding: 5px;
+    border: none;
+}
+
+
+header.header .header-toolbar {
+    background: #fff;
+    border-bottom: #ddd 1px solid;
+    position: absolute;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+}
+.right-header-toolbar{
+    margin-left: 200px;
+}
+
+.home-banner{
+    font-family: arial;
+    font-size: 12px;
+    line-height: 1.4em;
+    margin: 0;
+    position: relative;
+    background-color: #000;
+    padding: 10px 0;
+    height: 440px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.banner-caption {
+    padding-top: 20px;
+    font-size: 14px;
+    margin-left: 250px;
+}
+
+.nav-box{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: right;
+    padding-left: 10px;
+    width: 980px;
+}
+
+.home-page{
+    box-sizing: border-box;
+}

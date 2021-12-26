@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/header.css">
+
+    <title>Foody</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-topbar">
+            <div class="topbar">
+                <a class="current" href="#">Khám phá</a>
+                <a href="#">Đặt giao hàng</a>
+                <a href="#">Đi chợ</a>
+                <a href="#">Giảm giá</a>
+            </div>
+        </div>
+        <div class="header-toolbar">
+            <div class="left-header-toolbar">
+                <div class="foody-wapper">
+                    <a href="/" class="logo foody-logo" rel="home" alt="foody-logo">
+                        <img src="../Foody.vn/img/logo-foody.png" alt="Foody.vn">
+                    </a>
+                </div>
+                <select class="form-selectaddress" aria-label="Default select example" style="width:100px; height:30px">
+                    <option selected="">Hà Nội</option>
+                    <option value="1">Tp.Hồ Chí Minh</option>
+                    <option value="2">Đà Nẵng</option>
+                    <option value="3">Hải Phòng</option>
+                </select>
+
+                <select class="form-selectitems" aria-label="Default select example" style="width:100px; height:30px">
+                    <option selected="">Ăn uống</option>
+                    <option value="1">Ăn uống</option>
+                    <option value="2">Du lịch</option>
+                    <option value="3">Cưới hỏi</option>
+                </select>
+                <div class="search-box ">
+                    <div class="results-box ">
+                        <input type="text" class="search-input" autocomplete="off"
+                            placeholder="Địa điểm, món ăn, loại hình....." id="inputSearch" value=""
+                            style="width: 450px; height:30px">
+                        <!--<div class="suggest-box">
+            <div class="suggest-wrapper">
+              <div class="suggest-word">
+                <a href="javascript:;">Toco Toco</a>
+              </div>
+              <div class="suggest-word ">
+                <a href="javascript:;">Silky Beauty</a>
+              </div>
+            </div>
+          </div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="right-header-toolbar">
+                <div class="account-manage" id="accountmanager">
+                    <a class="fd-btn-login-new" ng-click="Login()" ng-class="{'loading':IsLoading}">
+                        <span>Đăng nhập</span>
+                    </a>
+                    <div id="update-profile-popup" style="display: none">
+                    </div>
+                    <div id="update-profile-popup-loading" style="display: none">
+                        Loading...
+                    </div>
+                    <div id="loginPopup" style="display: none">
+                        <div id="loginPopupPH" style="text-align:center; line-height:30px;">
+                            <img style="display:inline" src="/style/images/icons/ajax-loader.gif">
+                        </div>
+                    </div>
+                    <div id="loginFacebookPopup" style="display: none">Loading...</div>
+
+                    <input type="hidden" id="encryptedlogin" autocomplete="off">
+                </div>
+            </div>
+    </header>
+    <div class="home-banner">
+        <div class="home-banner-container slick-initialized slick-slider" style="display: block;">
+            <div class="slick-list draggable" style="padding: 0px 50px;">
+                <div class="slick-track" style="opacity: 1; width: 5000px; transform: translate3d(282px, 0px, 0px);">
+                    <div class="banner-item slick-slide slick-current slick-active slick-center" data-slick-index="0"
+                        aria-hidden="false" style="" tabindex="0">
+                        <a target="_blank" href="/" title="Foody App trên Mobile"
+                            onclick="ga('ads.send', 'event', 'Banner trang chu', 'Click', 'Foody App tren Mobile');"
+                            tabindex="0">
+                            <img src="img/foody_banner.jpg">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                onload="ga('ads.send', 'event', 'Banner trang chu', 'Impression', 'Foody App tren Mobile');"
+                                style="width:0;height:0;">
+                        </a>
+                    </div>
+                    <div class="banner-caption">
+                        <div class="banner-caption-desc">
+                            <p>Khám phá, đặt bàn, giao tận nơi</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+    <div class="home-banner-loading"></div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.home-banner-container').slick({
+                centerMode: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: true,
+                swipeToSlide: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                //arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 700,
+                        settings: {
+                            draggable: true,
+                            variableWidth: false,
+                            centerPadding: '0px',
+                        }
+                    }
+                ]
+            });
+            var m = ($(window).width() - 685) / 2 - 50;
+            $('.slick-prev').css('left', m + 'px');
+            $('.slick-next').css('right', m + 'px');
+            $('.home-banner-container').css('display', 'block');
+        });
+    </script> -->
+    </div>
+    <div class="home-page">
+        <div class="n-header">
+            <div class="foody-wapper">
+                <div class="n-header">
+                    <div class="avata-box">
+                        <div class="avatar">
+                            <img src="../Foody.vn/img/avatar-foody.png" alt="">
+                        </div>
+                        <div class="title">
+                            Giao tận nơi
+                        </div>
+                    </div>
+                    <div class="nav-box">
+                        
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
