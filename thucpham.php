@@ -70,8 +70,8 @@
                                 </div>
 
                                 <div class="header-nav col">
-                                    <a class="nav-item active" href="#">Đồ ăn</a>
-                                    <a class="nav-item" href="#">Thực phẩm</a>
+                                    <a class="nav-item " href="datgiaohang.php">Đồ ăn</a>
+                                    <a class="nav-item active" href="#">Thực phẩm</a>
                                     <a class="nav-item" href="#">Bia</a>
                                     <a class="nav-item" href="#">Hoa</a>
                                     <a class="nav-item" href="#">Siêu thị</a>
@@ -111,14 +111,13 @@
                 <div class="search-local">
                     <div class="">
                         <div>
-                            <h1 class="title">Đặt đồ ăn, giao hàng từ 20'...</h1>
-                            <div class="font15">Có 32898 Địa Điểm Ở Hà Nội Từ 00:00 - 23:59</div>
+                            <h1 class="title">Đặt Thực phẩm, giao hàng từ 20'...</h1>
+                            <div class="font15">Có 4215 Địa Điểm Ở Hà Nội Từ 00:00 - 23:59</div>
                         </div>
 
                         <div class="input-group">
                             <div style="flex-grow: 1;">
-                                <input type="search" id="form1" class="form-control"
-                                    placeholder="Tìm địa điểm, món ăn, địa chỉ...">
+                                <input type="search" id="form1" class="form-control" placeholder="Tìm shop thực phẩm">
                             </div>
                             <button type="button" class="btn btn-primary btn-search">
                                 <i class="fal fa-search"></i>
@@ -129,31 +128,21 @@
                             <a href=""><button type="button"
                                     class="btn btn-outline-secondary cate-item">All</button></a>
                             <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Đồ
-                                    ăn</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Đồ
-                                    uống</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Đồ
                                     chay</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Bánh
-                                    kem</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Tráng
-                                    miệng</button></a>
-                            <a href=""><button type="button"
-                                    class="btn btn-outline-secondary cate-item">Homemade</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Vỉa
-                                    hè</button></a>
-                            <a href=""><button type="button"
-                                    class="btn btn-outline-secondary cate-item">Pizza/Burger</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Món
-                                    gà</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Món
-                                    lẩu</button></a>
-                            <a href=""><button type="button"
-                                    class="btn btn-outline-secondary cate-item">Sushi</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Mì
-                                    phở</button></a>
-                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Cơm
-                                    hộp</button></a>
+                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Trái
+                                    cây</button></a>
+                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Thịt /
+                                    Trứng</button></a>
+                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Thủy
+                                    hải sản</button></a>
+                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Rau
+                                    củ</button></a>
+                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Gạo
+                                    mì</button></a>
+                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Đồ hộp / Đồ
+                                    uống</button></a>
+                            <a href=""><button type="button" class="btn btn-outline-secondary cate-item">Gia
+                                    vị</button></a>
                         </div>
 
                         <div>
@@ -169,6 +158,7 @@
                 </div>
             </div>
         </div>
+
         <div class="contain-main-home clearfix">
             <div class="container">
                 <div class="container">
@@ -819,7 +809,7 @@
                         <span class="registered">
                             <img src="./img/dangki.jpg" alt="ĐÃ ĐĂNG KÝ BỘ CÔNG THƯƠNG">
                         </span>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </footer>
