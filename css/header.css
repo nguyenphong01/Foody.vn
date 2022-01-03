@@ -150,6 +150,9 @@ button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, le
 .home-page-2017 .box-group .n-header .avatar-box {
     float: left;
 }
+.avatar {
+    position: relative;
+}
 .home-page-2017 .box-group .n-header {
     height: 60px;
     background: #fff;
@@ -165,6 +168,15 @@ button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, le
     background: #fff;
     padding-left: 15px;
     line-height: 60px;
+}
+.home-page-2017 .box-group .n-header .avatar-box .avatar {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    background: 0 0;
+    margin: 10px 15px 0 0;
+    border-radius: 5px;
 }
 .home-page-2017 .box-group.delivery .n-header .avatar-box .avatar:before {
     background-image: url(/Foody.vn/img/avatar-foody.png);
@@ -199,6 +211,14 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+.home-page-2017 .box-group .n-header .nav-box ul {
+    margin: 0;
+    padding: 0;
+    max-width: 770px;
+    overflow: hidden;
+    height: 60px;
+    float: left;
+}
 .home-page-2017 .box-group .n-header .nav-box ul li {
     display: inline-block;
     cursor: pointer;
@@ -209,4 +229,8 @@ li {
 }
 ul {
     list-style-type: disc;
+}
+.home-page-2017 .box-group .n-header .nav-box ul li a {
+    display: block;
+    padding: 0 8px;
 }
