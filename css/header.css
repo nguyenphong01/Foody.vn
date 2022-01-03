@@ -120,18 +120,93 @@ header.header .header-toolbar {
     margin-left: 250px;
 }
 
-.nav-box{
-    font-family: arial;
-    font-size: 14px;
-    line-height: 60px;
+
+/* Phần home page  */
+a, blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
     margin: 0;
     padding: 0;
+}
+.home-page-2017 .box-group.delivery, .home-page-2017 .box-group.tablenow {
+    border: 1px solid #d6d6d6;
+}
+.home-page-2017 .box-group, .home-page-2017 .box-group .list-items .items, .home-page-2017 .box-group .list-items .items .address, .home-page-2017 .box-group .list-items .items .info, .home-page-2017 .box-group .list-items .items .name, .home-page-2017 .box-group .nav-left .header, .home-page-2017 .box-group .nav-left .list-nav, .home-page-2017 .box-group .nav-left .list-nav>li, .home-page-2017 .box-group .nav-left .list-nav>li>a {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.home-page-2017 * {
     box-sizing: border-box;
+}
+
+.home-page-2017 .box-group {
+    font-size: 14px;
+    margin: 20px 0 0;
+}
+.home-page-2017 .box-group .n-header .avatar-box {
+    float: left;
+}
+.home-page-2017 .box-group .n-header {
+    height: 60px;
+    background: #fff;
+    padding-left: 15px;
+    line-height: 60px;
+}
+.home-page-2017 .box-group {
+    font-size: 14px;
+    margin: 20px 0 0;
+}
+.home-page-2017 .box-group .n-header {
+    height: 60px;
+    background: #fff;
+    padding-left: 15px;
+    line-height: 60px;
+}
+.home-page-2017 .box-group.delivery .n-header .avatar-box .avatar:before {
+    background-image: url(/Foody.vn/img/avatar-foody.png);
+}
+.home-page-2017 .box-group .n-header .avatar-box .avatar:before {
+    display: block;
+    content: ' ';
+    width: 40px;
+    height: 40px;
+    background: no-repeat center center;
+    background-size: contain;
+    float: left;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.home-page-2017 .box-group .n-header .avatar-box .title {
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+}
+.home-page-2017 .box-group .n-header .nav-box {
     float: right;
     padding-left: 10px;
     width: 980px;
 }
-
-.home-page{
-    box-sizing: border-box;
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.home-page-2017 .box-group .n-header .nav-box ul li {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
 }
