@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Foody.vn</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/datgiaohang.css">
-    <link rel="stylesheet" href="./css/foody.css">
 </head>
 
 <body>
@@ -34,8 +33,8 @@
 
                                 <div class="local col-auto">
                                     <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" role="button"
-                                            id="local-dropdown" data-toggle="dropdown" aria-haspopup="true"
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="local-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false">
                                             Hà Nội
                                         </button>
@@ -71,12 +70,12 @@
 
                                 <div class="header-nav col">
                                     <a class="nav-item active" href="#">Đồ ăn</a>
-                                    <a class="nav-item" href="#">Thực phẩm</a>
-                                    <a class="nav-item" href="#">Bia</a>
-                                    <a class="nav-item" href="#">Hoa</a>
-                                    <a class="nav-item" href="#">Siêu thị</a>
-                                    <a class="nav-item" href="#">Thuốc</a>
-                                    <a class="nav-item" href="#">Thú cưng</a>
+                                    <a class="nav-item" href="thucpham.php">Thực phẩm</a>
+                                    <a class="nav-item" href="bia.php">Bia</a>
+                                    <a class="nav-item" href="hoa.php">Hoa</a>
+                                    <a class="nav-item" href="sieuthi.php">Siêu thị</a>
+                                    <a class="nav-item" href="thuoc.php">Thuốc</a>
+                                    <a class="nav-item" href="thucung.php">Thú cưng</a>
                                 </div>
 
                                 <div class="flex-shrink-0 d-flex align-items-center">
@@ -85,7 +84,21 @@
                                     </div>
 
                                     <div class="user-login col-auto px-2">
-                                        <button type="button" class="btn btn-none-bg btn-login">Đăng nhập</button>
+                                        <a href="account.php">
+                                            <button type="button" class="btn btn-none-bg btn-login">Đăng nhập</button>
+                                            <!-- <?php
+                                                // require "login.php";
+                                                if (!isset($_SESSION['txtus'])) // If session is not set then redirect to Login Page
+                                                {
+                                                    printf(' <li class="nav-item"><a class="nav-link active" href="account.php"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                                                                <li class="nav-item"><a class="nav-link active" href="contact.php"><i class="fas fa-envelope"></i> Contact</a></li>');
+                                                } else {
+                                                    echo '<li class="nav-item" style:"color: lavender"><span class="glyphicon glyphicon-user"></span>';
+                                                    echo '<span style="color:lavender"><b>' . $_SESSION['HoTen'] . '</b></span></li>';
+                                                    echo '<li class="nav-item"><a class="nav-link active" href="logout.php"> Log Out</a></li>';
+                                                }
+                                            ?> -->
+                                        </a>
                                     </div>
 
                                     <div class="language dropdown col-auto">
@@ -173,12 +186,24 @@
             <div class="container">
                 <div class="container">
                     <div class="main-right-home">
-                        <div class="user-get-local">
-                            Do an => Giao hang
+                        <div class="user-get-local" id="search-local" type="button" data-bs-toggle="modal"
+                            data-bs-target="#locationModal">
+                            <div class="row align-items-center pointer no-gutters" style="cursor:pointer;">
+                                <div class="col-auto">
+                                    <span>Đồ ăn</span>
+                                    <i class="fas fa-long-arrow-alt-right bg-gray ms-2" style="font-size:12px;"></i>
+                                </div>
+                                <div class="col ps-0">32F4+G4 Tiên Du, Bắc Ninh, Việt Nam</div>
+                                <div class="col-auto">
+                                    <span>
+                                        <i class="fas fa-angle-right"></i>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                         <div class="now-list-restaurant">
                             <div class="d-flex justify-content-between align-items-center">
-                                <p>Ưu đãi</p>
+                                <p style="font-weight: 700;">Ưu đãi</p>
                                 <p>Xem tất cả</p>
                             </div>
                             <div class="row">
@@ -819,41 +844,83 @@
                         <span class="registered">
                             <img src="./img/dangki.jpg" alt="ĐÃ ĐĂNG KÝ BỘ CÔNG THƯƠNG">
                         </span>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </footer>
-
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade modal-get-local" id="locationModal" tabindex="-1" aria-labelledby="locationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Bạn muốn giao đến đâu?
+                    <button type="button" class="btn-close btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="search-local-modal">
+                        <div class="primary-local">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col-auto">
+                                    <i class="icon icon-search-modal"></i>
+                                </div>
+                                <div class="col">
+                                    <input type="text" id="formatted-address" name="address"
+                                        placeholder="Nhập địa chỉ giao hàng" value>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-    var banner = document.getElementById("now-banner");
-    banner.style.cssText += 'position: fixed; top: 70px;';
+    window.addEventListener('DOMContentLoaded', (event) => {
+        var banner = document.getElementById("now-banner");
+        var searchLocal = document.getElementById("search-local");
+        var locationModal = document.getElementById("locationModal");
 
-    window.onscroll = function() {
-        onSCrollFoodList()
-    };
+        banner.style.cssText += 'position: fixed; top: 70px;';
 
-    function onSCrollFoodList() {
-        var top = 950;
-        var posY = window.scrollY;
-        if (posY >= top) {
-            console.log("aaaaaaaaaaaaa")
-            banner.style.cssText += `position: absolute; top: ${top}px;`;
-        } else {
-            console.log("bbbbbbbb")
-            banner.style.cssText += 'position: fixed; top: 70px;';
+        window.onscroll = function() {
+            onSCrollFoodList()
+        };
+
+        function onSCrollFoodList() {
+            var top = 950;
+            var posY = window.scrollY;
+            if (posY >= top) {
+                banner.style.cssText += `position: absolute; top: ${top}px;`;
+            } else {
+                banner.style.cssText += 'position: fixed; top: 70px;';
+            }
         }
-    }
+        var myModal = new bootstrap.Modal(locationModal, {
+            keyboard: false
+        })
+        var modalToggle = locationModal // relatedTarget
+        myModal.show(modalToggle)
+    });
     </script>
+
+
 </body>
 
 </html>
