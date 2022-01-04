@@ -212,17 +212,15 @@
                                 <div class="top-feature-col-left">
                                     <div class="top-feature-deal-item"><a class="feature-item"
                                             href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-119k-noi-mi-cac-loai-0?location=ha-noi&amp;internal=home-trending">
-                                            <img
-                                                class="feature-item__thumb" alt=""
+                                            <img class="feature-item__thumb" alt=""
                                                 src="https://img.jamja.vn/jamja-prod/aaa-16409340361646058.jpg?w=556">
-                                            <img
-                                                src="/assets/images/img-gradient.png" alt=""
-                                                class="gradient">
+                                            <img src="/assets/images/img-gradient.png" alt="" class="gradient">
                                             <div class="deal-item-content">
                                                 <div class="feature-item__content__wrapper">
                                                     <div class="btn feature-item__cta">Đặt chỗ</div>
                                                     <div class="text-center">
-                                                        <div class="feature-item__brand-name">Hồng Nhung Beauty Academy</div>
+                                                        <div class="feature-item__brand-name">Hồng Nhung Beauty Academy
+                                                        </div>
                                                         <div class="feature-item__highlight">-55%</div>
                                                     </div>
                                                 </div>
@@ -232,17 +230,15 @@
                                 <div class="top-feature-col-right">
                                     <div class="top-feature-deal-item"><a class="feature-item"
                                             href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-699k-phun-xam-dieu-khac-long-may-0?location=ha-noi&amp;internal=home-trending">
-                                            <img
-                                                class="feature-item__thumb" alt=""
+                                            <img class="feature-item__thumb" alt=""
                                                 src="https://img.jamja.vn/jamja-prod/aaa-16406997753663449.jpg?w=556">
-                                            <img
-                                                src="/assets/images/img-gradient.png" alt=""
-                                                class="gradient">
+                                            <img src="/assets/images/img-gradient.png" alt="" class="gradient">
                                             <div class="deal-item-content">
                                                 <div class="feature-item__content__wrapper">
                                                     <div class="btn feature-item__cta">Đặt chỗ</div>
                                                     <div class="text-center">
-                                                        <div class="feature-item__brand-name">Hồng Nhung Beauty Academy</div>
+                                                        <div class="feature-item__brand-name">Hồng Nhung Beauty Academy
+                                                        </div>
                                                         <div class="feature-item__highlight">-60%</div>
                                                     </div>
                                                 </div>
@@ -251,12 +247,9 @@
                                     </div>
                                     <div class="top-feature-deal-item"><a class="feature-item"
                                             href="/khuyen-mai/co-nail-art/co-nail-art-chi-49k-combo-nhat-da-sua-mong-son-gel-0?location=ha-noi&amp;internal=home-trending">
-                                            <img
-                                                class="feature-item__thumb" alt=""
+                                            <img class="feature-item__thumb" alt=""
                                                 src="https://img.jamja.vn/jamja-prod/-16406601842351198.image?w=556">
-                                            <img
-                                                src="/assets/images/img-gradient.png" alt=""
-                                                class="gradient">
+                                            <img src="/assets/images/img-gradient.png" alt="" class="gradient">
                                             <div class="deal-item-content">
                                                 <div class="feature-item__content__wrapper">
                                                     <div class="btn feature-item__cta">Đặt chỗ</div>
@@ -282,8 +275,7 @@
                                             href="/khuyen-mai/luxspa/luxspachi-99k-tri-mun-don-tet-cho-da-dau-mun-an-mun-viem-mun-dau-den-0?location=ha-noi&amp;internal=home-pin"><img
                                                 class="feature-item__thumb" alt=""
                                                 src="https://img.jamja.vn/jamja-prod/image-4-268408.png?w=556"><img
-                                                src="/assets/images/img-gradient.png" alt=""
-                                                class="gradient">
+                                                src="/assets/images/img-gradient.png" alt="" class="gradient">
                                             <div class="deal-item-content">
                                                 <div class="feature-item__content__wrapper">
                                                     <div class="btn feature-item__cta">Đặt chỗ</div>
@@ -295,12 +287,12 @@
                                                 </div>
                                             </div>
                                         </a></div>
-                                    <div class="deal-wrapper"><a class="feature-item"
+                                    <div class="deal-wrapper">
+                                        <a class="feature-item"
                                             href="/khuyen-mai/kimho-bbq-buffet-nuong-lau/kimho-bbq-buffet-nuong-lau-chi-tu-139k-buffet-nuong-lau-0?location=ha-noi&amp;internal=home-pin"><img
                                                 class="feature-item__thumb" alt=""
                                                 src="https://img.jamja.vn/jamja-prod/86281672-707130166491622-9175386415955968000-o.jpg?w=556"><img
-                                                src="/assets/images/img-gradient.png" alt=""
-                                                class="gradient">
+                                                src="/assets/images/img-gradient.png" alt="" class="gradient">
                                             <div class="deal-item-content">
                                                 <div class="feature-item__content__wrapper">
                                                     <div class="btn feature-item__cta">Đặt chỗ</div>
@@ -311,13 +303,14 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a></div>
-                                    <div class="deal-wrapper"><a class="feature-item"
+                                        </a>
+                                    </div>
+                                    <div class="deal-wrapper">
+                                        <a class="feature-item"
                                             href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-699k-phun-xam-dieu-khac-long-may-0?location=ha-noi&amp;internal=home-pin"><img
                                                 class="feature-item__thumb" alt="JAMJA tiết kiệm hơn"
                                                 src="https://img.jamja.vn/jamja-prod/aaa-16406997753663449.jpg?w=556"><img
-                                                src="/assets/images/img-gradient.png" alt=""
-                                                class="gradient">
+                                                src="/assets/images/img-gradient.png" alt="" class="gradient">
                                             <div class="deal-item-content">
                                                 <div class="feature-item__content__wrapper">
                                                     <div class="btn feature-item__cta">Đặt chỗ</div>
@@ -328,7 +321,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a></div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -400,6 +394,631 @@
                                     </div>
                                 </div>
                                 <div class="deal-item__address-text"> 104 Cầu Gỗ, Hàng Trống, Hoàn Kiếm, Hà Nội</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-block list_cell">
+                    <div class="category-header">
+                        <div class="heading">
+                            <h2>ĐẶT CHỖ MỚI NHẤT</h2>
+                        </div>
+                        <div class="quick-filter no-padding">
+                            <ul>
+                                <li><a
+                                        href="/dat-cho?filter=[{&quot;tag_type&quot;:&quot;muc&quot;,&quot;tags&quot;:&quot;%C4%83n&quot;}]">Đồ
+                                        ăn</a></li>
+                                <li><a
+                                        href="/dat-cho?filter=[{&quot;tag_type&quot;:&quot;muc&quot;,&quot;tags&quot;:&quot;u%E1%BB%91ng&quot;}]">Đồ
+                                        uống</a></li>
+                                <li><a
+                                        href="/dat-cho?filter=[{&quot;tag_type&quot;:&quot;muc&quot;,&quot;tags&quot;:&quot;%C4%91%E1%BA%B9p&quot;}]">Làm
+                                        đẹp</a></li>
+                                <li><a
+                                        href="/dat-cho?filter=[{&quot;tag_type&quot;:&quot;muc&quot;,&quot;tags&quot;:&quot;gi%E1%BA%A3i%20tr%C3%AD&quot;}]">Giải
+                                        trí</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 deal-item-wrapper ">
+                            <div class="deal-item">
+                                <div class="deal-item__header">
+                                    <a class="deal-item__header__brand" target="_blank"
+                                        title="Hồng Nhung Beauty Academy"
+                                        href="/thuong-hieu/hong-nhung-beauty-academy?internal=dat-cho"><img
+                                            class="deal-item__header__brand__logo"
+                                            src="https://jamja.vn/static/images/no_image.png?h=40"
+                                            alt="Hồng Nhung Beauty Academy" title="Hồng Nhung Beauty Academy">
+                                    </a>
+                                    <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span></div>
+                                </div>
+                                <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                        href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-699k-phun-xam-dieu-khac-long-may-0?internal=dat-cho"><img
+                                            class="deal-item__body__thumbnail" title="Hồng Nhung Beauty Academy"
+                                            src="https://img.jamja.vn/jamja-prod/aaa-16406997753663449.jpg?w=540">
+                                        <div class="deal-item__highlight__tag__wrapper">
+                                            <div class="deal-item__tag">-60%</div>
+                                        </div>
+                                        <div class="deal-item__badge exclusive"><span class="jicon_exclusive__o"></span>
+                                        </div>
+                                        <div class="deal-item__body_condition">
+                                            <pre class="deal-item__body_condition__content"></pre>
+                                        </div>
+                                    </a></div>
+                                <h3 class="deal-item__footer__heading"><a
+                                        href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-699k-phun-xam-dieu-khac-long-may-0?internal=dat-cho">
+                                        <div class="deal-item__footer-badge exclusive"><span
+                                                class="material-icons">credit_score</span><!-- react-text: 570 -->Đặt
+                                            chỗ
+                                            <!-- /react-text -->
+                                        </div><!-- react-text: 571 -->Hồng Nhung Beauty Academy: CHỈ 699K PHUN XĂM, ĐIÊU
+                                        KHẮC LÔNG MÀY
+                                        <!-- /react-text -->
+                                    </a></h3>
+                                <div class="deal-item__meta-text">
+                                    <div class="bookmark"><span
+                                            class="material-icons-outlined">bookmark_border</span><span>33</span></div>
+                                </div>
+                                <div class="deal-item__address-text">85 Hồ Văn Chương, ngõ 221 Tôn Đức Thắng, phường
+                                    Hàng Bột, Đống Đa, Hà Nội</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 deal-item-wrapper ">
+                            <div class="deal-item">
+                                <div class="deal-item__header"><a class="deal-item__header__brand" target="_blank"
+                                        title="Hồng Nhung Beauty Academy"
+                                        href="/thuong-hieu/hong-nhung-beauty-academy?internal=dat-cho"><img
+                                            class="deal-item__header__brand__logo"
+                                            src="https://jamja.vn/static/images/no_image.png?h=40"
+                                            alt="Hồng Nhung Beauty Academy" title="Hồng Nhung Beauty Academy"></a>
+                                    <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span></div>
+                                </div>
+                                <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                        href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-119k-noi-mi-cac-loai-0?internal=dat-cho"><img
+                                            class="deal-item__body__thumbnail" title="Hồng Nhung Beauty Academy"
+                                            src="https://img.jamja.vn/jamja-prod/aaa-16409340361646058.jpg?w=540">
+                                        <div class="deal-item__highlight__tag__wrapper">
+                                            <div class="deal-item__tag">-55%</div>
+                                        </div>
+                                        <div class="deal-item__badge exclusive"><span class="jicon_exclusive__o"></span>
+                                        </div>
+                                        <div class="deal-item__body_condition">
+                                            <pre class="deal-item__body_condition__content"></pre>
+                                        </div>
+                                    </a></div>
+                                <h3 class="deal-item__footer__heading"><a
+                                        href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-119k-noi-mi-cac-loai-0?internal=dat-cho">
+                                        <div class="deal-item__footer-badge exclusive"><span
+                                                class="material-icons">credit_score</span><!-- react-text: 597 -->Đặt
+                                            chỗ
+                                            <!-- /react-text -->
+                                        </div><!-- react-text: 598 -->Hồng Nhung Beauty Academy: CHỈ 119K NỐI MI CÁC
+                                        LOẠI
+                                        <!-- /react-text -->
+                                    </a></h3>
+                                <div class="deal-item__meta-text">
+                                    <div class="bookmark"><span
+                                            class="material-icons-outlined">bookmark_border</span><span>31</span></div>
+                                </div>
+                                <div class="deal-item__address-text">85 Hồ Văn Chương, ngõ 221 Tôn Đức Thắng, phường
+                                    Hàng Bột, Đống Đa, Hà Nội</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 deal-item-wrapper ">
+                            <div class="deal-item">
+                                <div class="deal-item__header"><a class="deal-item__header__brand" target="_blank"
+                                        title="Cọ Nail Art " href="/thuong-hieu/co-nail-art?internal=dat-cho"><img
+                                            class="deal-item__header__brand__logo"
+                                            src="https://jamja.vn/static/images/no_image.png?h=40" alt="Cọ Nail Art "
+                                            title="Cọ Nail Art "></a>
+                                    <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span></div>
+                                </div>
+                                <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                        href="/khuyen-mai/co-nail-art/co-nail-art-chi-149k-combo-lam-mong-0?internal=dat-cho"><img
+                                            class="deal-item__body__thumbnail" title="Cọ Nail Art "
+                                            src="https://img.jamja.vn/jamja-prod/-16406601842182588.image?w=540">
+                                        <div class="deal-item__highlight__tag__wrapper">
+                                            <div class="deal-item__tag">-30%</div>
+                                        </div>
+                                        <div class="deal-item__badge exclusive"><span class="jicon_exclusive__o"></span>
+                                        </div>
+                                        <div class="deal-item__body_condition">
+                                            <pre class="deal-item__body_condition__content"></pre>
+                                        </div>
+                                    </a></div>
+                                <h3 class="deal-item__footer__heading"><a
+                                        href="/khuyen-mai/co-nail-art/co-nail-art-chi-149k-combo-lam-mong-0?internal=dat-cho">
+                                        <div class="deal-item__footer-badge exclusive"><span
+                                                class="material-icons">credit_score</span><!-- react-text: 624 -->Đặt
+                                            chỗ
+                                            <!-- /react-text -->
+                                        </div><!-- react-text: 625 -->Cọ Nail Art: CHỈ 149K COMBO SỬA MÓNG, NỐI MÓNG ĐẮP
+                                        GEL &amp; SƠN GEL
+                                        <!-- /react-text -->
+                                    </a></h3>
+                                <div class="deal-item__meta-text">
+                                    <div class="bookmark"><span
+                                            class="material-icons-outlined">bookmark_border</span><span>28</span></div>
+                                </div>
+                                <div class="deal-item__address-text">Ngõ 3 Đặng Văn Ngữ, Đống Đa, Hà Nội</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 deal-item-wrapper ">
+                            <div class="deal-item">
+                                <div class="deal-item__header"><a class="deal-item__header__brand" target="_blank"
+                                        title="Cọ Nail Art " href="/thuong-hieu/co-nail-art?internal=dat-cho"><img
+                                            class="deal-item__header__brand__logo"
+                                            src="https://jamja.vn/static/images/no_image.png?h=40" alt="Cọ Nail Art "
+                                            title="Cọ Nail Art "></a>
+                                    <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span></div>
+                                </div>
+                                <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                        href="/khuyen-mai/co-nail-art/co-nail-art-chi-89k-combo-nhat-da-sua-mong-up-mong-son-gel-0?internal=dat-cho"><img
+                                            class="deal-item__body__thumbnail" title="Cọ Nail Art "
+                                            src="https://img.jamja.vn/jamja-prod/-16406259916050266.image?w=540">
+                                        <div class="deal-item__highlight__tag__wrapper">
+                                            <div class="deal-item__tag">-18%</div>
+                                        </div>
+                                        <div class="deal-item__badge exclusive"><span class="jicon_exclusive__o"></span>
+                                        </div>
+                                        <div class="deal-item__body_condition">
+                                            <pre class="deal-item__body_condition__content"></pre>
+                                        </div>
+                                    </a></div>
+                                <h3 class="deal-item__footer__heading"><a
+                                        href="/khuyen-mai/co-nail-art/co-nail-art-chi-89k-combo-nhat-da-sua-mong-up-mong-son-gel-0?internal=dat-cho">
+                                        <div class="deal-item__footer-badge exclusive"><span
+                                                class="material-icons">credit_score</span><!-- react-text: 651 -->Đặt
+                                            chỗ
+                                            <!-- /react-text -->
+                                        </div><!-- react-text: 652 -->Cọ Nail Art: CHỈ 99K COMBO NHẶT DA, SỬA MÓNG, ÚP
+                                        MÓNG &amp; SƠN GEL
+                                        <!-- /react-text -->
+                                    </a></h3>
+                                <div class="deal-item__meta-text">
+                                    <div class="bookmark"><span
+                                            class="material-icons-outlined">bookmark_border</span><span>36</span></div>
+                                </div>
+                                <div class="deal-item__address-text">Ngõ 3 Đặng Văn Ngữ, Đống Đa, Hà Nội</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 deal-item-wrapper ">
+                            <div class="deal-item">
+                                <div class="deal-item__header"><a class="deal-item__header__brand" target="_blank"
+                                        title="Cọ Nail Art " href="/thuong-hieu/co-nail-art?internal=dat-cho"><img
+                                            class="deal-item__header__brand__logo"
+                                            src="https://jamja.vn/static/images/no_image.png?h=40" alt="Cọ Nail Art "
+                                            title="Cọ Nail Art "></a>
+                                    <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span></div>
+                                </div>
+                                <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                        href="/khuyen-mai/co-nail-art/co-nail-art-chi-49k-combo-nhat-da-sua-mong-son-gel-0?internal=dat-cho"><img
+                                            class="deal-item__body__thumbnail" title="Cọ Nail Art "
+                                            src="https://img.jamja.vn/jamja-prod/-16406601842351198.image?w=540">
+                                        <div class="deal-item__highlight__tag__wrapper">
+                                            <div class="deal-item__tag">-40%</div>
+                                        </div>
+                                        <div class="deal-item__badge exclusive"><span class="jicon_exclusive__o"></span>
+                                        </div>
+                                        <div class="deal-item__body_condition">
+                                            <pre class="deal-item__body_condition__content"></pre>
+                                        </div>
+                                    </a></div>
+                                <h3 class="deal-item__footer__heading"><a
+                                        href="/khuyen-mai/co-nail-art/co-nail-art-chi-49k-combo-nhat-da-sua-mong-son-gel-0?internal=dat-cho">
+                                        <div class="deal-item__footer-badge exclusive"><span
+                                                class="material-icons">credit_score</span><!-- react-text: 689 -->Đặt
+                                            chỗ
+                                            <!-- /react-text -->
+                                        </div><!-- react-text: 690 -->Cọ Nail Art: CHỈ 49K COMBO NHẶT DA SỬA MÓNG &amp;
+                                        SƠN GEL
+                                        <!-- /react-text -->
+                                    </a></h3>
+                                <div class="deal-item__meta-text">
+                                    <div class="bookmark"><span
+                                            class="material-icons-outlined">bookmark_border</span><span>28</span></div>
+                                </div>
+                                <div class="deal-item__address-text">Ngõ 3 Đặng Văn Ngữ, Đống Đa, Hà Nội</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 deal-item-wrapper ">
+                            <div class="deal-item">
+                                <div class="deal-item__header"><a class="deal-item__header__brand" target="_blank"
+                                        title="Diamond Spa" href="/thuong-hieu/diamond-spa?internal=dat-cho"><img
+                                            class="deal-item__header__brand__logo"
+                                            src="https://jamja.vn/static/images/no_image.png?h=40" alt="Diamond Spa"
+                                            title="Diamond Spa"></a>
+                                    <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span></div>
+                                </div>
+                                <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                        href="/khuyen-mai/diamond-spa/diamond-spa-chi-99k-massage-co-vai-gay-0?internal=dat-cho"><img
+                                            class="deal-item__body__thumbnail" title="Diamond Spa"
+                                            src="https://img.jamja.vn/jamja-prod/-16406594240356119.image?w=540">
+                                        <div class="deal-item__highlight__tag__wrapper">
+                                            <div class="deal-item__tag">-50%</div>
+                                        </div>
+                                        <div class="deal-item__badge exclusive"><span class="jicon_exclusive__o"></span>
+                                        </div>
+                                        <div class="deal-item__body_condition">
+                                            <pre class="deal-item__body_condition__content"></pre>
+                                        </div>
+                                    </a></div>
+                                <h3 class="deal-item__footer__heading"><a
+                                        href="/khuyen-mai/diamond-spa/diamond-spa-chi-99k-massage-co-vai-gay-0?internal=dat-cho">
+                                        <div class="deal-item__footer-badge exclusive"><span
+                                                class="material-icons">credit_score</span><!-- react-text: 716 -->Đặt
+                                            chỗ
+                                            <!-- /react-text -->
+                                        </div><!-- react-text: 717 -->Diamond Spa: CHỈ 99K MASSAGE CỔ VAI GÁY
+                                        <!-- /react-text -->
+                                    </a></h3>
+                                <div class="deal-item__meta-text">
+                                    <div class="bookmark"><span
+                                            class="material-icons-outlined">bookmark_border</span><span>25</span></div>
+                                </div>
+                                <div class="deal-item__address-text">Số 32 phố Chùa Hà, Dịch Vọng, Cầu Giấy, Hà Nội
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row homepage-show-more">
+                        <div class="wrapper-show-more">
+                            <a class="btn btn-default show-more-comments" href="/dat-cho">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-block grid_view">
+                    <div class="category-header">
+                        <div class="heading">
+                            <h2>ĐẶT CHỖ ĐỒ ĂN</h2>
+                        </div>
+                        <div class="quick-filter no-padding">
+                            <ul>
+                                <li><a
+                                        href="/an?filter=[{&quot;tag_type&quot;:&quot;mon&quot;,&quot;tags&quot;:&quot;l%E1%BA%A9u&quot;}]">Lẩu</a>
+                                </li>
+                                <li><a
+                                        href="/an?filter=[{&quot;tag_type&quot;:&quot;mon&quot;,&quot;tags&quot;:&quot;n%C6%B0%E1%BB%9Bng&quot;}]">Nướng</a>
+                                </li>
+                                <li><a
+                                        href="/an?filter=[{&quot;tag_type&quot;:&quot;mon&quot;,&quot;tags&quot;:&quot;qu%C3%A1n%20%C4%83n&quot;}]">Quán
+                                        ăn</a></li>
+                                <li><a
+                                        href="/an?filter=[{&quot;tag_type&quot;:&quot;mon&quot;,&quot;tags&quot;:&quot;%C4%83n%20nhanh&quot;}]">Ăn
+                                        nhanh</a></li>
+                                <li><a
+                                        href="/an?filter=[{&quot;tag_type&quot;:&quot;mon&quot;,&quot;tags&quot;:&quot;%C4%91%E1%BB%93%20ng%E1%BB%8Dt&quot;}]">Đồ
+                                        ngọt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 grid-view-with-banner">
+                            <div class="row">
+                                <div class="col-sm-12 deal-item-wrapper ">
+                                    <div class="deal-item">
+                                        <div class="deal-item__header"><a class="deal-item__header__brand"
+                                                target="_blank" title="King BBQ"
+                                                href="/thuong-hieu/king-bbq?internal=an"><img
+                                                    class="deal-item__header__brand__logo" src="img/KingBBQ.jpg"
+                                                    alt="King BBQ" title="King BBQ"></a>
+                                            <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span>
+                                            </div>
+                                        </div>
+                                        <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                                href="/khuyen-mai/king-bbq/king-bbq-giam-den-20-set-buffet-0?internal=an"><img
+                                                    class="deal-item__body__thumbnail" title="King BBQ"
+                                                    src="https://img.jamja.vn/jamja-prod/6-770903.jpg?w=720">
+                                                <div class="deal-item__highlight__tag__wrapper">
+                                                    <div class="deal-item__tag">-20%*</div>
+                                                </div>
+                                                <div class="deal-item__badge exclusive"><span
+                                                        class="jicon_exclusive__o"></span></div>
+                                                <div class="deal-item__body_condition">
+                                                    <pre class="deal-item__body_condition__content"></pre>
+                                                </div>
+                                            </a></div>
+                                        <h3 class="deal-item__footer__heading"><a
+                                                href="/khuyen-mai/king-bbq/king-bbq-giam-den-20-set-buffet-0?internal=an">
+                                                <div class="deal-item__footer-badge exclusive"><span
+                                                        class="material-icons">credit_score</span>
+                                                    <!-- react-text: 3579 -->Đặt chỗ
+                                                    <!-- /react-text -->
+                                                </div><!-- react-text: 3580 -->King BBQ: GIẢM ĐẾN 20% SET BUFFET
+                                                <!-- /react-text -->
+                                            </a></h3>
+                                        <div class="deal-item__meta-text">
+                                            <div class="bookmark"><span
+                                                    class="material-icons-outlined">bookmark_border</span><span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="deal-item__address-text">Số 460 - 462 Nguyễn Văn Cừ, P. Gia Thụy, Q.
+                                            Long Biên </div>
+                                    </div>
+                                </div>
+                            </div><!-- react-empty: 3586 -->
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-6 deal-item-wrapper ">
+                                    <div class="deal-item">
+                                        <div class="deal-item__header"><a class="deal-item__header__brand"
+                                                target="_blank" title="Hệ Thống Bò Nhúng Dấm - Bò Ngon 555"
+                                                href="/thuong-hieu/bo-ngon-555?internal=an"><img
+                                                    class="deal-item__header__brand__logo"
+                                                    src="https://img.jamja.vn/jamja-prod/tmp_gcs_full_5cecde2b76ec571d4496f488-2019-05-28-070723.jpeg?h=40"
+                                                    alt="Hệ Thống Bò Nhúng Dấm - Bò Ngon 555"
+                                                    title="Hệ Thống Bò Nhúng Dấm - Bò Ngon 555"></a>
+                                            <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span>
+                                            </div>
+                                        </div>
+                                        <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                                href="/khuyen-mai/bo-ngon-555/he-thong-bo-nhung-dam-bo-ngon-555-chi-349k-set-bo-nhung-dam-2?internal=an"><img
+                                                    class="deal-item__body__thumbnail"
+                                                    title="Hệ Thống Bò Nhúng Dấm - Bò Ngon 555"
+                                                    src="https://img.jamja.vn/jamja-prod/cov-tenmc-recovered-65.jpg?w=540">
+                                                <div class="deal-item__highlight__tag__wrapper">
+                                                    <div class="deal-item__tag">-40%</div>
+                                                </div>
+                                                <div class="deal-item__badge exclusive"><span
+                                                        class="jicon_exclusive__o"></span></div>
+                                                <div class="deal-item__body_condition">
+                                                    <pre class="deal-item__body_condition__content"></pre>
+                                                </div>
+                                            </a></div>
+                                        <h3 class="deal-item__footer__heading"><a
+                                                href="/khuyen-mai/bo-ngon-555/he-thong-bo-nhung-dam-bo-ngon-555-chi-349k-set-bo-nhung-dam-2?internal=an">
+                                                <div class="deal-item__footer-badge exclusive"><span
+                                                        class="material-icons">credit_score</span>
+                                                    <!-- react-text: 3609 -->Đặt chỗ
+                                                    <!-- /react-text -->
+                                                </div><!-- react-text: 3610 -->Hệ Thống Bò Nhúng Dấm - Bò Ngon 555: CHỈ
+                                                349K SET BÒ NHÚNG DẤM
+                                                <!-- /react-text -->
+                                            </a></h3>
+                                        <div class="deal-item__meta-text">
+                                            <div class="bookmark"><span
+                                                    class="material-icons-outlined">bookmark_border</span><span>37</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="deal-item__address-text">4 cửa hàng</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 deal-item-wrapper ">
+                                    <div class="deal-item">
+                                        <div class="deal-item__header"><a class="deal-item__header__brand"
+                                                target="_blank" title="Lẩu Nướng Cô Quỳnh "
+                                                href="/thuong-hieu/lau-nuong-co-quynh?internal=an"><img
+                                                    class="deal-item__header__brand__logo"
+                                                    src="https://img.jamja.vn/jamja-prod/tmp_gcs_full_5c174e4676ec57656e64ba29-2018-12-17-072039.jpeg?h=40"
+                                                    alt="Lẩu Nướng Cô Quỳnh " title="Lẩu Nướng Cô Quỳnh "></a>
+                                            <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span>
+                                            </div>
+                                        </div>
+                                        <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                                href="/khuyen-mai/lau-nuong-co-quynh/lau-nuong-co-quynh-chi-tu-99k-buffet-nuong-0?internal=an"><img
+                                                    class="deal-item__body__thumbnail" title="Lẩu Nướng Cô Quỳnh "
+                                                    src="https://img.jamja.vn/jamja-prod/66f1e90417d3e78dbec2-1.jpg?w=540">
+                                                <div class="deal-item__highlight__tag__wrapper">
+                                                    <div class="deal-item__tag">-30%</div>
+                                                </div>
+                                                <div class="deal-item__badge exclusive"><span
+                                                        class="jicon_exclusive__o"></span></div>
+                                                <div class="deal-item__body_condition">
+                                                    <pre class="deal-item__body_condition__content"></pre>
+                                                </div>
+                                            </a></div>
+                                        <h3 class="deal-item__footer__heading"><a
+                                                href="/khuyen-mai/lau-nuong-co-quynh/lau-nuong-co-quynh-chi-tu-99k-buffet-nuong-0?internal=an">
+                                                <div class="deal-item__footer-badge exclusive"><span
+                                                        class="material-icons">credit_score</span>
+                                                    <!-- react-text: 3647 -->Đặt chỗ
+                                                    <!-- /react-text -->
+                                                </div><!-- react-text: 3648 -->Lẩu Nướng Cô Quỳnh: CHỈ TỪ 99K BUFFET
+                                                NƯỚNG
+                                                <!-- /react-text -->
+                                            </a></h3>
+                                        <div class="deal-item__meta-text">
+                                            <div class="bookmark"><span
+                                                    class="material-icons-outlined">bookmark_border</span><span>22</span>
+                                            </div>
+                                        </div>
+                                        <div class="deal-item__address-text">Số 9 Nguyễn Trung Trực, Ba Đình, Hà Nội
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 deal-item-wrapper ">
+                                    <div class="deal-item">
+                                        <div class="deal-item__header"><a class="deal-item__header__brand"
+                                                target="_blank" title="Buffet Sapasa"
+                                                href="/thuong-hieu/buffet-sapasa?internal=an"><img
+                                                    class="deal-item__header__brand__logo"
+                                                    src="https://img.jamja.vn/jamja-prod/tmpgcs-full-5fab6849382b8e157a7cc3e8.jpeg?h=40"
+                                                    alt="Buffet Sapasa" title="Buffet Sapasa"></a>
+                                            <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span>
+                                            </div>
+                                        </div>
+                                        <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                                href="/khuyen-mai/buffet-sapasa/buffet-sapasa-tang-buffet-do-uong-0?internal=an"><img
+                                                    class="deal-item__body__thumbnail" title="Buffet Sapasa"
+                                                    src="https://img.jamja.vn/jamja-prod/1-597349.jpg?w=540">
+                                                <div class="deal-item__highlight__tag__wrapper">
+                                                    <div class="deal-item__tag">-10%</div>
+                                                </div>
+                                                <div class="deal-item__badge exclusive"><span
+                                                        class="jicon_exclusive__o"></span></div>
+                                                <div class="deal-item__body_condition">
+                                                    <pre class="deal-item__body_condition__content"></pre>
+                                                </div>
+                                            </a></div>
+                                        <h3 class="deal-item__footer__heading"><a
+                                                href="/khuyen-mai/buffet-sapasa/buffet-sapasa-tang-buffet-do-uong-0?internal=an">
+                                                <div class="deal-item__footer-badge exclusive"><span
+                                                        class="material-icons">credit_score</span>
+                                                    <!-- react-text: 3674 -->Đặt chỗ
+                                                    <!-- /react-text -->
+                                                </div><!-- react-text: 3675 -->Buffet Sapasa: TẶNG BUFFET ĐỒ UỐNG
+                                                <!-- /react-text -->
+                                            </a></h3>
+                                        <div class="deal-item__meta-text">
+                                            <div class="bookmark"><span
+                                                    class="material-icons-outlined">bookmark_border</span><span>20</span>
+                                            </div>
+                                        </div>
+                                        <div class="deal-item__address-text">96-96B Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 deal-item-wrapper ">
+                                    <div class="deal-item">
+                                        <div class="deal-item__header"><a class="deal-item__header__brand"
+                                                target="_blank" title="Lẩu Nướng Cô Quỳnh "
+                                                href="/thuong-hieu/lau-nuong-co-quynh?internal=an"><img
+                                                    class="deal-item__header__brand__logo"
+                                                    src="https://img.jamja.vn/jamja-prod/tmp_gcs_full_5c174e4676ec57656e64ba29-2018-12-17-072039.jpeg?h=40"
+                                                    alt="Lẩu Nướng Cô Quỳnh " title="Lẩu Nướng Cô Quỳnh "></a>
+                                            <div class="deal-item__header__follow"><span class="jicon_plus_o  "></span>
+                                            </div>
+                                        </div>
+                                        <div class="deal-item__body"><a class="deal-item__body__thumbnail__wrapper"
+                                                href="/khuyen-mai/lau-nuong-co-quynh/lau-nuong-co-quynh-chi-129k-buffet-nuong-2?internal=an"><img
+                                                    class="deal-item__body__thumbnail" title="Lẩu Nướng Cô Quỳnh "
+                                                    src="https://img.jamja.vn/jamja-prod/66f1e90417d3e78dbec2-1.jpg?w=540">
+                                                <div class="deal-item__highlight__tag__wrapper">
+                                                    <div class="deal-item__tag">-10%</div>
+                                                </div>
+                                                <div class="deal-item__badge exclusive"><span
+                                                        class="jicon_exclusive__o"></span></div>
+                                                <div class="deal-item__body_condition">
+                                                    <pre class="deal-item__body_condition__content"></pre>
+                                                </div>
+                                            </a></div>
+                                        <h3 class="deal-item__footer__heading"><a
+                                                href="/khuyen-mai/lau-nuong-co-quynh/lau-nuong-co-quynh-chi-129k-buffet-nuong-2?internal=an">
+                                                <div class="deal-item__footer-badge exclusive"><span
+                                                        class="material-icons">credit_score</span>
+                                                    <!-- react-text: 3701 -->Đặt chỗ
+                                                    <!-- /react-text -->
+                                                </div><!-- react-text: 3702 -->Lẩu Nướng Cô Quỳnh: CHỈ TỪ 119K BUFFET
+                                                NƯỚNG
+                                                <!-- /react-text -->
+                                            </a></h3>
+                                        <div class="deal-item__meta-text">
+                                            <div class="bookmark"><span
+                                                    class="material-icons-outlined">bookmark_border</span><span>39</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="deal-item__address-text">Số 9 Nguyễn Trung Trực, Ba Đình, Hà Nội
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row homepage-show-more">
+                        <div class="wrapper-show-more"><a class="btn btn-default show-more-comments" href="/an">Xem
+                                thêm</a></div>
+                    </div>
+                </div>
+                <div class="category-block meo-vat-mua-sam">
+                    <div class="category-header">
+                        <div class="heading">
+                            <h2>Mẹo vặt mua sắm &amp; giảm giá</h2>
+                        </div>
+                        <div class="quick-filter no-padding"><a href="https://jamja.vn/blog" target="_blank"
+                                style="margin-right: 20px;">
+                                <!-- react-text: 4632 -->Xem thêm >
+                                <!-- /react-text -->
+                            </a></div>
+                    </div>
+                    <div class="row blog-article-list">
+                        <div class="col-sm-4 first-article"><a
+                                href="https://jamja.vn/blog/top-10-spa-uy-tin-nhat-ha-noi.html">
+                                <figure><img
+                                        src="https://jamja.vn/blog/wp-content/uploads/2019/01/10-spa-uy-tin-nhat-ha-noi-3.jpg"
+                                        alt="title"></figure>
+                            </a>
+                            <h3 class="heading">Top 10 Spa uy tín nhất Hà Nội mà chị em nào cũng cần biết</h3>
+                            <div class="author">
+                                <!-- react-text: 4641 -->Bởi
+                                <!-- /react-text -->
+                                <!-- react-text: 4642 -->Hà My
+                                <!-- /react-text -->
+                                <!-- react-text: 4643 --> - ngày
+                                <!-- /react-text -->
+                                <!-- react-text: 4644 -->15/02/2019
+                                <!-- /react-text -->
+                            </div>
+                            <div class="short-description">
+                                <p>Top 10 spa uy tín nhất Hà Nội là vấn đề quan tâm của rất nhiều bạn gái, nhất là trong
+                                    dịp tết đến xuân về, nhu cầu làm đẹp càng tăng cao. Làm đẹp không chỉ đơn giản là sở
+                                    thích mà còn là đam mê của rất nhiều chị em. Nhưng để làm […]</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="row second-articles">
+                                <div class="col-sm-6"><a href="https://jamja.vn/blog/dia-chi-lam-nail-dep-o-tphcm.html">
+                                        <figure><img
+                                                src="https://jamja.vn/blog/wp-content/uploads/2019/02/dia-chi-lam-nail-dep-o-tphcm-1.jpg"
+                                                alt="title"></figure>
+                                    </a>
+                                    <h3 class="heading"><a
+                                            href="https://jamja.vn/blog/dia-chi-lam-nail-dep-o-tphcm.html">TOP 15 địa
+                                            chỉ làm nail đẹp ở TP. HCM uy tín nhất hiện nay</a></h3>
+                                </div>
+                                <div class="col-sm-6"><a href="https://jamja.vn/blog/quan-cafe-view-dep-o-da-nang.html">
+                                        <figure><img
+                                                src="https://jamja.vn/blog/wp-content/uploads/2018/03/quan-cafe-view-dep-o-da-nang.jpg"
+                                                alt="title"></figure>
+                                    </a>
+                                    <h3 class="heading"><a
+                                            href="https://jamja.vn/blog/quan-cafe-view-dep-o-da-nang.html">TOP 10 quán
+                                            cafe view đẹp ở Đà Nẵng nhất định phải ghé qua</a></h3>
+                                </div>
+                                <div class="col-sm-6"><a href="https://jamja.vn/blog/quan-cafe-yen-tinh-o-sai-gon.html">
+                                        <figure><img
+                                                src="https://jamja.vn/blog/wp-content/uploads/2018/06/quan-cafe-yen-tinh-o-sai-gon.jpg"
+                                                alt="title"></figure>
+                                    </a>
+                                    <h3 class="heading"><a
+                                            href="https://jamja.vn/blog/quan-cafe-yen-tinh-o-sai-gon.html">“Xách mông”
+                                            đến những quán cafe yên tĩnh ở Sài Gòn vừa rẻ vừa đẹp</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="row third-articles">
+                                <div class="col-sm-12"><a href="https://jamja.vn/blog/dia-chi-noi-mi-dep-tphcm.html">
+                                        <figure><img
+                                                src="https://jamja.vn/blog/wp-content/uploads/2019/01/dia-chi-noi-mi-dep-tphcm.jpg"
+                                                alt="title"></figure>
+                                    </a>
+                                    <h3 class="heading"><a
+                                            href="https://jamja.vn/blog/dia-chi-noi-mi-dep-tphcm.html">Top 10 địa chỉ
+                                            nối mi đẹp Tp HCM chất lượng uy tín hàng đầu</a></h3>
+                                </div>
+                                <div class="col-sm-12"><a href="https://jamja.vn/blog/quan-cafe-view-dep-o-ha-noi.html">
+                                        <figure><img
+                                                src="https://jamja.vn/blog/wp-content/uploads/2018/03/quan-cafe-view-dep-o-ha-noi.jpg"
+                                                alt="title"></figure>
+                                    </a>
+                                    <h3 class="heading"><a
+                                            href="https://jamja.vn/blog/quan-cafe-view-dep-o-ha-noi.html">TOP 10 quán
+                                            cafe view đẹp ở Hà Nội nên đi ngay vào cuối tuần</a></h3>
+                                </div>
+                                <div class="col-sm-12"><a
+                                        href="https://jamja.vn/blog/dia-diem-to-chuc-year-and-party-ha-noi.html">
+                                        <figure><img
+                                                src="https://jamja.vn/blog/wp-content/uploads/2018/12/year-end-party-hanoi.jpg"
+                                                alt="title"></figure>
+                                    </a>
+                                    <h3 class="heading"><a
+                                            href="https://jamja.vn/blog/dia-diem-to-chuc-year-and-party-ha-noi.html">Top
+                                            7 địa điểm tổ chức Year End Party hoành tráng nhất nhì Hà Nội</a></h3>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -551,7 +1170,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+    </script>
 </body>
 
 </html>
