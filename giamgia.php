@@ -202,6 +202,137 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="home-page__block__right">
+                        <div>
+                            <div class="top-feature-heading-homepage">
+                                <h2>MỚI &amp; HOT</h2>
+                                <div class="border"></div>
+                            </div>
+                            <div class="home-page__block__right_top_feature">
+                                <div class="top-feature-col-left">
+                                    <div class="top-feature-deal-item"><a class="feature-item"
+                                            href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-119k-noi-mi-cac-loai-0?location=ha-noi&amp;internal=home-trending">
+                                            <img
+                                                class="feature-item__thumb" alt=""
+                                                src="https://img.jamja.vn/jamja-prod/aaa-16409340361646058.jpg?w=556">
+                                            <img
+                                                src="/assets/images/img-gradient.png" alt=""
+                                                class="gradient">
+                                            <div class="deal-item-content">
+                                                <div class="feature-item__content__wrapper">
+                                                    <div class="btn feature-item__cta">Đặt chỗ</div>
+                                                    <div class="text-center">
+                                                        <div class="feature-item__brand-name">Hồng Nhung Beauty Academy</div>
+                                                        <div class="feature-item__highlight">-55%</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a></div>
+                                </div>
+                                <div class="top-feature-col-right">
+                                    <div class="top-feature-deal-item"><a class="feature-item"
+                                            href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-699k-phun-xam-dieu-khac-long-may-0?location=ha-noi&amp;internal=home-trending">
+                                            <img
+                                                class="feature-item__thumb" alt=""
+                                                src="https://img.jamja.vn/jamja-prod/aaa-16406997753663449.jpg?w=556">
+                                            <img
+                                                src="/assets/images/img-gradient.png" alt=""
+                                                class="gradient">
+                                            <div class="deal-item-content">
+                                                <div class="feature-item__content__wrapper">
+                                                    <div class="btn feature-item__cta">Đặt chỗ</div>
+                                                    <div class="text-center">
+                                                        <div class="feature-item__brand-name">Hồng Nhung Beauty Academy</div>
+                                                        <div class="feature-item__highlight">-60%</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="top-feature-deal-item"><a class="feature-item"
+                                            href="/khuyen-mai/co-nail-art/co-nail-art-chi-49k-combo-nhat-da-sua-mong-son-gel-0?location=ha-noi&amp;internal=home-trending">
+                                            <img
+                                                class="feature-item__thumb" alt=""
+                                                src="https://img.jamja.vn/jamja-prod/-16406601842351198.image?w=556">
+                                            <img
+                                                src="/assets/images/img-gradient.png" alt=""
+                                                class="gradient">
+                                            <div class="deal-item-content">
+                                                <div class="feature-item__content__wrapper">
+                                                    <div class="btn feature-item__cta">Đặt chỗ</div>
+                                                    <div class="text-center">
+                                                        <div class="feature-item__brand-name">Cọ Nail Art </div>
+                                                        <div class="feature-item__highlight">-40%</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="top-feature-heading-homepage">
+                                <h2 class="should-see">CÓ THỂ BẠN NÊN XEM</h2>
+                                <div class="border"></div>
+                            </div>
+                            <div class="top-deal-suggest-container">
+                                <div class="top-deal-suggest">
+                                    <div class="deal-wrapper"><a class="feature-item"
+                                            href="/khuyen-mai/luxspa/luxspachi-99k-tri-mun-don-tet-cho-da-dau-mun-an-mun-viem-mun-dau-den-0?location=ha-noi&amp;internal=home-pin"><img
+                                                class="feature-item__thumb" alt=""
+                                                src="https://img.jamja.vn/jamja-prod/image-4-268408.png?w=556"><img
+                                                src="/assets/images/img-gradient.png" alt=""
+                                                class="gradient">
+                                            <div class="deal-item-content">
+                                                <div class="feature-item__content__wrapper">
+                                                    <div class="btn feature-item__cta">Đặt chỗ</div>
+                                                    <div class="text-center">
+                                                        <div class="feature-item__brand-name">LuxSpa - Chuyên điều trị
+                                                            Mụn Thâm Sẹo #1</div>
+                                                        <div class="feature-item__highlight">-53%</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a></div>
+                                    <div class="deal-wrapper"><a class="feature-item"
+                                            href="/khuyen-mai/kimho-bbq-buffet-nuong-lau/kimho-bbq-buffet-nuong-lau-chi-tu-139k-buffet-nuong-lau-0?location=ha-noi&amp;internal=home-pin"><img
+                                                class="feature-item__thumb" alt=""
+                                                src="https://img.jamja.vn/jamja-prod/86281672-707130166491622-9175386415955968000-o.jpg?w=556"><img
+                                                src="/assets/images/img-gradient.png" alt=""
+                                                class="gradient">
+                                            <div class="deal-item-content">
+                                                <div class="feature-item__content__wrapper">
+                                                    <div class="btn feature-item__cta">Đặt chỗ</div>
+                                                    <div class="text-center">
+                                                        <div class="feature-item__brand-name">KIMHO BBQ - Buffet Nướng
+                                                            &amp; Lẩu</div>
+                                                        <div class="feature-item__highlight">-13%*</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a></div>
+                                    <div class="deal-wrapper"><a class="feature-item"
+                                            href="/khuyen-mai/hong-nhung-beauty-academy/hong-nhung-beauty-academy-chi-699k-phun-xam-dieu-khac-long-may-0?location=ha-noi&amp;internal=home-pin"><img
+                                                class="feature-item__thumb" alt="JAMJA tiết kiệm hơn"
+                                                src="https://img.jamja.vn/jamja-prod/aaa-16406997753663449.jpg?w=556"><img
+                                                src="/assets/images/img-gradient.png" alt=""
+                                                class="gradient">
+                                            <div class="deal-item-content">
+                                                <div class="feature-item__content__wrapper">
+                                                    <div class="btn feature-item__cta">Đặt chỗ</div>
+                                                    <div class="text-center">
+                                                        <div class="feature-item__brand-name">Hồng Nhung Beauty Academy
+                                                        </div>
+                                                        <div class="feature-item__highlight">-60%</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 <div class="category-block list-cell">
@@ -243,13 +374,19 @@
                                         <!-- /react-text -->
                                     </a></h3>
                                 <div class="deal-item__meta-text">
-                                    <div class="bookmark"><span class="jicon_bookmark_o"></span><span>110</span></div>
-                                    <div class="rating small deal-item__rating" title="Điểm: 4.65"><span
-                                            class="jicon_star_full" style="color: rgb(239, 134, 59);"></span><span
-                                            class="jicon_star_full" style="color: rgb(239, 134, 59);"></span><span
-                                            class="jicon_star_full" style="color: rgb(239, 134, 59);"></span><span
-                                            class="jicon_star_full" style="color: rgb(239, 134, 59);"></span><span
-                                            class="jicon_star_haft_o" style="color: rgb(239, 134, 59);"></span>
+                                    <div class="bookmark"><span
+                                            class="material-icons-outlined">bookmark_border</span><span>110</span></div>
+                                    <div class="rating small deal-item__rating " title="Điểm: 4.65">
+                                        <span class="material-icons-outlined"
+                                            style="color: rgb(239, 134, 59);">star_outline</span>
+                                        <span class="material-icons-outlined"
+                                            style="color: rgb(239, 134, 59);">star_outline</span>
+                                        <span class="material-icons-outlined"
+                                            style="color: rgb(239, 134, 59);">star_outline</span>
+                                        <span class="material-icons-outlined"
+                                            style="color: rgb(239, 134, 59);">star_outline</span>
+                                        <span class="material-icons-outlined"
+                                            style="color: rgb(239, 134, 59);">star_half</span>
                                         <!-- react-text: 376 -->
                                         <!-- /react-text -->
                                         <!-- react-text: 377 -->81
@@ -391,17 +528,15 @@
                             lần đầu ngày 06/05/2016, thay đổi lần thứ 5 ngày 02/10/2019 - Nơi cấp: Sở KH&amp;ĐT thành
                             phố Hà Nội - Người đại diện: Ông Lê Hùng Việt</span>
                     </div>
-                    <div class="st" style="flex-basis: 250px;">
-                        <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=29352" target="_blank"
-                            rel="nofollow"><img class="icon-bo-cong-thuong" alt="" title="" src="img/bocongthuong.jpg">
-                        </a>
-                        <a target="_blank" rel="nofollow"
+                    <div class="ft" style="flex-basis: 250px;"><a
+                            href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=29352" target="_blank"
+                            rel="nofollow"><img class="icon-bo-cong-thuong" alt="" title=""
+                                src="img/bocongthuong.jpg"></a><a target="_blank" rel="nofollow"
                             href="//www.dmca.com/Protection/Status.aspx?ID=ccbb45fd-c6a5-4642-a2bf-1e3d9a383c97"
                             title="DMCA.com Protection Status" class="dmca-badge"><img class="icon-dcma"
                                 src="//images.dmca.com/Badges/dmca-badge-w250-5x1-02.png?ID=ccbb45fd-c6a5-4642-a2bf-1e3d9a383c97"
-                                alt="DMCA.com Protection Status">
-                        </a>
-                        <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                                alt="DMCA.com Protection Status"></a>
+                        <script src="img/dmca.png"> </script>
                     </div>
                 </div>
             </div>
@@ -416,7 +551,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>
