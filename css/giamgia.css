@@ -1178,6 +1178,137 @@ h2 {
     height: 35px;
     text-overflow: ellipsis;
 }
+
+/*Thương hiệu nổi bật*/
+.header-center {
+    margin-top: 30px;
+}
+.header-center .category-header {
+    background-color: transparent;
+    background: 0 0;
+    border: none;
+}
+.category-header {
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.header-center .heading {
+    width: 100%;
+    text-align: center;
+}
+.category-header .heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    text-transform: uppercase;
+}
+.header-center .heading h2 {
+    width: 100%;
+    text-align: center;
+}
+.category-header .heading h2 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #666;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.header-center .heading:after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.category-header .heading:after {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    max-width: 120px;
+    min-width: 40px;
+    width: 70%;
+    bottom: 0;
+    left: 0;
+    background-color: #e73948;
+}
+
+.thuong-hieu-noi-bat .merchant {
+    background-color: #fff;
+    border-radius: 4px;
+    height: 75px;
+    position: relative;
+}
+
+.thuong-hieu-noi-bat img {
+    max-height: 50px;
+    max-width: 100%;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.row>* {
+    flex-shrink: 1;
+}
+.truth-platform .statistic-body {
+    padding-bottom: 35px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 996px;
+    display: flex;
+    justify-content: space-between;
+}
+.truth-platform .statistic-body .item {
+    text-align: center;
+}
+.truth-platform .statistic-body .item [class^=material-icons-outlined] {
+    font-size: 24px;
+    color: #e73948;
+    margin-bottom: 10px;
+    display: block;
+}
+.truth-platform .statistic-body .item p {
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #666;
+    font-weight: 700;
+}
+.truth-platform .statistic-body .item small {
+    font-size: 14px;
+    color: #999;
+}
+.truth-platform .nav-tabs {
+    justify-content: center;
+    flex-grow: 1;
+    border-bottom: 1px solid #fff;
+}
+.truth-platform .nav-tabs .nav-item .nav-link.active {
+    color: #e83949;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.truth-platform .nav-tabs .nav-item .nav-link {
+    height: 48px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    min-width: 280px;
+    text-align: center;
+    cursor: pointer;
+    color: #999;
+}
+.home-page-guide-container {
+    padding: 15px;
+    background-color: #fff;
+}
+
 /* CSS Footer */
 .footer{
     font-weight: 400;

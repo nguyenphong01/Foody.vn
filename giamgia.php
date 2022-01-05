@@ -1023,6 +1023,102 @@
                         </div>
                     </div>
                 </div>
+                <div class="category-block header-center thuong-hieu-noi-bat">
+                    <div class="category-header">
+                        <div class="heading">
+                            <h2>Thương hiệu nổi bật trên JAMJA</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between flex-nowrap">
+                        <a href="/thuong-hieu/tocotoco" style="width: 100%; margin: 0px 15px;">
+                            <div class="merchant d-flex align-items-center justify-content-center">
+                                <img src="img/toco.png" alt="TocoToco" style="position: static; transform: none;">
+                            </div>
+                        </a>
+                        <a href="/thuong-hieu/royaltea" style="width: 100%; margin: 0px 15px;">
+                            <div class="merchant d-flex align-items-center justify-content-center">
+                                <img src="img/royal.jpeg" alt="Royaltea" style="position: static; transform: none;">
+                            </div>
+                        </a>
+                        <a href="/thuong-hieu/chang-nails" style="width: 100%; margin: 0px 15px;">
+                            <div class="merchant d-flex align-items-center justify-content-center">
+                                <img src="img/nail.jpeg" alt="Chang Nails" style="position: static; transform: none;">
+                            </div>
+                        </a>
+                        <a href="/thuong-hieu/labella-hair-salon" style="width: 100%; margin: 0px 15px;">
+                            <div class="merchant d-flex align-items-center justify-content-center">
+                                <img src="img/bella.jpeg" alt="Labella Hair Salon"
+                                    style="position: static; transform: none;">
+                            </div>
+                        </a>
+                        <a href="/thuong-hieu/nail-by-khanh-ly" style="width: 100%; margin: 0px 15px;">
+                            <div class="merchant d-flex align-items-center justify-content-center">
+                                <img src="img/beauty.jpeg" alt="Khánh Ly Beauty"
+                                    style="position: static; transform: none;">
+                            </div>
+                        </a>
+                        <a href="/thuong-hieu/silky-beauty" style="width: 100%; margin: 0px 15px;">
+                            <div class="merchant d-flex align-items-center justify-content-center">
+                                <img src="img/silky.png" alt="Silky Beauty" style="position: static; transform: none;">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="category-block header-center truth-platform" style="margin-bottom: 30px;">
+                    <div class="category-header">
+                        <div class="heading">
+                            <h2>Nền tảng khuyến mãi uy tín</h2>
+                        </div>
+                    </div>
+                    <div class="statistic-body">
+                        <div class="item"><span class="material-icons-outlined">local_offer</span>
+                            <p>1.049.039</p><small> Khuyến mãi </small>
+                        </div>
+                        <div class="item"><span class="material-icons-outlined">star_border</span>
+                            <p>13.032</p><small> Thương hiệu </small>
+                        </div>
+                        <div class="item"><span class="material-icons-outlined">storefront</span>
+                            <p>19.301</p><small> Cửa hàng </small>
+                        </div>
+                        <div class="item"><span class="material-icons-outlined">people</span>
+                            <p>930.314</p><small> Người tin dùng </small>
+                        </div>
+                        <div class="item"><span class="material-icons-outlined">bookmark_added</span>
+                            <p>627.755</p><small> Lượt đánh dấu </small>
+                        </div>
+                    </div>
+                    <div class="row tab-guide">
+                        <div class="category-block header-center" style="margin-top: 15px;">
+                            <div class="category-header" style="margin-bottom: 40px;">
+                                <div class="heading">
+                                    <h2>tiết kiệm hơn mỗi ngày</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item"><a class="nav-link tab-guide__title-booking active"><span
+                                        class="jicon_booking_o"></span><!-- react-text: 6346 -->Đặt chỗ khuyến mãi
+                                    <!-- /react-text -->
+                                </a></li>
+                            <li class="nav-item"><a class="nav-link"><span class="jicon_search"></span>
+                                    <!-- react-text: 6350 -->Tìm khuyến mãi xung quanh
+                                    <!-- /react-text -->
+                                </a></li>
+                        </ul>
+                        <div class="col-sm-12 home-page-guide-container">
+                            <p style="text-align: center; margin: 0px; color: rgb(153, 153, 153);">JAMJA là nền tảng
+                                giảm giá đầu tiên </p>
+                            <p style="text-align: center; color: rgb(153, 153, 153);"> tích hợp ĐẶT CHỖ TỨC THÌ</p>
+                            <div class="d-flex justify-content-between" style="align-items: flex-start; padding: 15px;">
+                                <img src="img/b1.png" alt=""
+                                    style="width: 16%; height: 70%;"><img src="img/b2.png"
+                                    alt="" style="width: 20%; height: 70%;"><img
+                                    src="img/b3.png" alt=""
+                                    style="width: 22%; height: 70%;"><img src="img/b4.png"
+                                    alt="" style="width: 20%; height: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
