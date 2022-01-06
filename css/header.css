@@ -20,6 +20,10 @@ body {
     line-height: 1.4em;
     margin: 0;
 }
+.foody-wapper .n-listitems {
+    width: 1170px;
+    margin: 0 auto;
+ }
 
 .container-topbar{
     background: #333;
@@ -202,7 +206,7 @@ button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, le
     padding-left: 10px;
     width: 980px;
 }
-ul {
+ ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -233,4 +237,140 @@ ul {
 .home-page-2017 .box-group .n-header .nav-box ul li a {
     display: block;
     padding: 0 8px;
+}
+.home-page-2017 .box-group .n-listitems {
+    position: relative;
+    width: 1150px;
+    padding: 15px 0 0 20px;
+    height: 525px;
+}
+.home-page-2017 .box-group .n-listitems .items {
+    width: 1150px;
+}
+.home-page-2017 .box-group .n-listitems .items, .home-page-2017 .box-group .n-listitems .items .address, .home-page-2017 .box-group .n-listitems .items .info, .home-page-2017 .box-group .n-listitems .items .name {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.home-page-2017 .box-group .n-listitems .items>li {
+    display: block;
+    position: relative;
+    float: left;
+    width: 228px;
+    padding: 0 10px 10px 0;
+}
+.home-page-2017 .box-group .n-listitems .items .avatar {
+    display: block;
+    float: left;
+    width: 100%;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    overflow: hidden;
+}
+.home-page-2017 .box-group .n-listitems .items .avatar>img {
+    display: block;
+    float: left;
+    width: 227px;
+    height: 142px;
+    border-radius: 0;
+    margin-left: -5px;
+}
+.home-page-2017 .box-group .n-listitems .items .info {
+    height: 60px;
+}
+.home-page-2017 .box-group .n-listitems .items .info {
+    padding: 10px;
+    position: relative;
+    height: 38px;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+} 
+ .home-page-2017 .box-group .n-listitems .items .address, .home-page-2017 .box-group .n-listitems .items .info, .home-page-2017 .box-group .n-listitems .items .name {
+    background: #fff;
+}
+.home-page-2017 .box-group .n-listitems .items, .home-page-2017 .box-group .n-listitems .items .address, .home-page-2017 .box-group .n-listitems .items .info, .home-page-2017 .box-group .n-listitems .items .name {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.home-page-2017 .limit-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.home-page-2017 .box-group .n-listitems .li-page.fa-angle-right {
+    right: -18px;
+    padding: 8px 0 0 5px;
+}
+.home-page-2017 .box-group .n-listitems .li-page {
+    position: absolute;
+    top: 0;
+    color: #b3b3b3;
+    font-size: 32px;
+    width: 20px;
+    height: 510px;
+    text-align: center;
+    cursor: pointer;
+}
+.home-page-2017 .box-group .n-listitems .li-page.fa-angle-right:before {
+    position: absolute;
+    top: 243px;
+    right: 2px;
+}
+.n-listitems .none-quality-text {
+    position: relative;
+    top: 3px;
+}
+.home-page-2017 .box-group .n-listitems .items .name {
+    font-weight: 700;
+    padding: 10px 10px 0;
+    height: 29px;
+}
+.home-page-2017 .box-group .n-listitems .items>li {
+    display: block;
+    position: relative;
+    float: left;
+    width: 228px;
+    padding: 0 10px 10px 0;
+}
+.home-page-2017 .box-group .n-listitems .items .address, .home-page-2017 .box-group .n-listitems .items .info, .home-page-2017 .box-group .n-listitems .items .name {
+    background: #fff;
+}
+.home-page-2017 .box-group .n-listitems .items, .home-page-2017 .box-group .n-listitems .items .address, .home-page-2017 .box-group .n-listitems .items .info, .home-page-2017 .box-group .n-listitems .items .name {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.home-page-2017 .limit-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.home-page-2017 .box-group .n-listitems .items .address {
+    color: #777;
+    font-size: 12px;
+    padding: 5px 10px 10px;
+} 
+ .home-page-2017 .box-group .n-listitems .items .avatar>img {
+    display: block;
+    float: left;
+    width: 227px;
+    height: 142px;
+    border-radius: 0;
+    margin-left: -5px;
+}
+.home-page-2017 .box-group .n-listitems .items {
+    width: 100%;
+}
+.home-page-2017 .box-group .n-listitems .li-page.fa-angle-right {
+    right: -18px;
+    padding: 8px 0 0 5px;
 }

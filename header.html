@@ -11,7 +11,7 @@
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../Foody.vn/css/header.css">
 
     <title>Foody</title>
 </head>
@@ -51,16 +51,7 @@
                         <input type="text" class="search-input" autocomplete="off"
                             placeholder="Địa điểm, món ăn, loại hình....." id="inputSearch" value=""
                             style="width: 450px; height:30px">
-                        <!--<div class="suggest-box">
-            <div class="suggest-wrapper">
-              <div class="suggest-word">
-                <a href="javascript:;">Toco Toco</a>
-              </div>
-              <div class="suggest-word ">
-                <a href="javascript:;">Silky Beauty</a>
-              </div>
-            </div>
-          </div>-->
+
                     </div>
                 </div>
             </div>
@@ -84,6 +75,7 @@
                     <input type="hidden" id="encryptedlogin" autocomplete="off">
                 </div>
             </div>
+        </div>
     </header>
 
     <!-- Phần 2-->
@@ -332,7 +324,384 @@
                         </ul>
                     </div>
                 </div>
-    </div>
+                <!-- Phần đồ ăn.........................-->
+                <div class="n-listitems" ng-class="{'loading':ListItems.IsLoading,'less':ListItems.Items.length<=5}"
+                    style="">
+                    <!-- ngIf: ListItems.IsLoading && ListItems.Items.length>5 -->
+                    <!-- ngIf: ListItems.IsLoading && ListItems.Items.length<=5 -->
+                    <!-- ngIf: !ListItems.IsLoading -->
+                    <ul class="items ng-scope ng-enter-prepare" ng-if="!ListItems.IsLoading">
+                        <!-- ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div ng-if="!(item.brand &amp;&amp; item.brand.restaurant_count>1)" class="ng-scope">
+                                <a class="avatar" title="Bánh Tiramisu - Shop Online"
+                                    ng-href="https://shopeefood.vn/ha-noi/banh-tiramisu-shop-online" target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/banh-tiramisu-shop-online">
+                                    <img ng-src="https://images.foody.vn/res/g87/863630/prof/s750x400/foody-upload-api-foody-mobile-tiramisu-1-jpg-181212180515.jpg"
+                                        alt="Bánh Tiramisu - Shop Online"
+                                        src="https://images.foody.vn/res/g87/863630/prof/s750x400/foody-upload-api-foody-mobile-tiramisu-1-jpg-181212180515.jpg">
+                                </a>
+                                <a title="Bánh Tiramisu - Shop Online"
+                                    ng-href="https://shopeefood.vn/ha-noi/banh-tiramisu-shop-online" target="_blank"
+                                    rel="nofollow" href="https://shopeefood.vn/ha-noi/banh-tiramisu-shop-online">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant ng-hide"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name" class="none-quality-text ng-binding"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}"
+                                            title="Bánh Tiramisu - Shop Online">Bánh Tiramisu - Shop Online</span>
+                                    </div>
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="180 Xã Đàn, Đống Đa, Hà Nội">180 Xã Đàn, Đống Đa, Hà Nội</div>
+                                </a>
+                            </div><!-- end ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Shop Online</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <div ng-if="item.brand &amp;&amp; item.brand.restaurant_count>1" class="ng-scope">
+                                <a class="avatar" title="Lẩu Đức Trọc"
+                                    ng-href="https://shopeefood.vn/ha-noi/lau-duc-troc-thai-thinh" target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/lau-duc-troc-thai-thinh">
+                                    <img ng-src="https://images.foody.vn/res/g30/296509/prof/s750x400/foody-mobile-duc1-jpg.jpg"
+                                        alt="Lẩu Đức Trọc"
+                                        src="https://images.foody.vn/res/g30/296509/prof/s750x400/foody-mobile-duc1-jpg.jpg">
+                                </a>
+                                <a title="Lẩu Đức Trọc" ng-href="https://shopeefood.vn/ha-noi/lau-duc-troc-thai-thinh"
+                                    target="_blank" rel="nofollow"
+                                    href="https://shopeefood.vn/ha-noi/lau-duc-troc-thai-thinh">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant ng-hide"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name" title="Lẩu Đức Trọc - Tây Sơn"
+                                            class="none-quality-text ng-binding"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}">Lẩu Đức Trọc -
+                                            Tây Sơn</span>
+                                    </div>
+
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="61 Ngõ 298 Tây Sơn, Đống Đa, Hà Nội">61 Ngõ 298 Tây Sơn, Đống Đa, Hà Nội
+                                    </div>
+                                </a>
+                            </div><!-- end ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Restaurant</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div ng-if="!(item.brand &amp;&amp; item.brand.restaurant_count>1)" class="ng-scope">
+                                <a class="avatar" title="Lẩu Đức Trọc - Đường Láng"
+                                    ng-href="https://shopeefood.vn/ha-noi/lau-duc-troc-duong-lang" target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/lau-duc-troc-duong-lang">
+                                    <img ng-src="https://images.foody.vn/res/g75/747170/prof/s750x400/foody-upload-api-foody-mobile-1-jpg-180606103333.jpg"
+                                        alt="Lẩu Đức Trọc - Đường Láng"
+                                        src="https://images.foody.vn/res/g75/747170/prof/s750x400/foody-upload-api-foody-mobile-1-jpg-180606103333.jpg">
+                                </a>
+                                <a title="Lẩu Đức Trọc - Đường Láng"
+                                    ng-href="https://shopeefood.vn/ha-noi/lau-duc-troc-duong-lang" target="_blank"
+                                    rel="nofollow" href="https://shopeefood.vn/ha-noi/lau-duc-troc-duong-lang">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant ng-hide"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name" class="none-quality-text ng-binding"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}"
+                                            title="Lẩu Đức Trọc - Đường Láng">Lẩu Đức Trọc - Đường Láng</span>
+                                    </div>
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="790 Đường Láng, Đống Đa, Hà Nội">790 Đường Láng, Đống Đa, Hà Nội</div>
+                                </a>
+                            </div><!-- end ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Boozer</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <div ng-if="item.brand &amp;&amp; item.brand.restaurant_count>1" class="ng-scope">
+                                <a class="avatar" title="Trà sữa Tocotoco Phố Xốm"
+                                    ng-href="https://shopeefood.vn/ha-noi/tra-sua-tocotoco-ngoc-hoi" target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/tra-sua-tocotoco-ngoc-hoi">
+                                    <img ng-src="https://images.foody.vn/res/g67/662390/prof/s750x400/foody-upload-api-foody-mobile-6ec017c3-c232-45fb-8-200429162344.jpg"
+                                        alt="Trà sữa Tocotoco Phố Xốm"
+                                        src="https://images.foody.vn/res/g67/662390/prof/s750x400/foody-upload-api-foody-mobile-6ec017c3-c232-45fb-8-200429162344.jpg">
+                                </a>
+                                <a title="Trà sữa Tocotoco Phố Xốm"
+                                    ng-href="https://shopeefood.vn/ha-noi/tra-sua-tocotoco-ngoc-hoi" target="_blank"
+                                    rel="nofollow" href="https://shopeefood.vn/ha-noi/tra-sua-tocotoco-ngoc-hoi">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name" title="Trà Sữa Tocotoco - Ngọc Hồi"
+                                            class="none-quality-text ng-binding quality-merchant-text"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}">Trà Sữa
+                                            Tocotoco - Ngọc Hồi</span>
+                                    </div>
+
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="Km13 QL1A Ngọc Hồi, Thanh Trì, Hà Nội">Km13 QL1A Ngọc Hồi, Thanh Trì, Hà
+                                        Nội</div>
+                                </a>
+                            </div><!-- end ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)"
+                                    class="ng-binding">Coffee/Dessert</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div ng-if="!(item.brand &amp;&amp; item.brand.restaurant_count>1)" class="ng-scope">
+                                <a class="avatar"
+                                    title="Khoa Nguyễn - Nước Ép, Sinh Tố &amp; Cóc Xoài Bao Tử - Shop Online"
+                                    ng-href="https://shopeefood.vn/ha-noi/khoa-nguyen-nuoc-ep-sinh-to-coc-xoai-bao-tu-shop-online"
+                                    target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/khoa-nguyen-nuoc-ep-sinh-to-coc-xoai-bao-tu-shop-online">
+                                    <img ng-src="https://images.foody.vn/res/g86/853661/prof/s750x400/foody-upload-api-foody-mobile-khoa-nguyen-jpg-181127171409.jpg"
+                                        alt="Khoa Nguyễn - Nước Ép, Sinh Tố &amp; Cóc Xoài Bao Tử - Shop Online"
+                                        src="https://images.foody.vn/res/g86/853661/prof/s750x400/foody-upload-api-foody-mobile-khoa-nguyen-jpg-181127171409.jpg">
+                                </a>
+                                <a title="Khoa Nguyễn - Nước Ép, Sinh Tố &amp; Cóc Xoài Bao Tử - Shop Online"
+                                    ng-href="https://shopeefood.vn/ha-noi/khoa-nguyen-nuoc-ep-sinh-to-coc-xoai-bao-tu-shop-online"
+                                    target="_blank" rel="nofollow"
+                                    href="https://shopeefood.vn/ha-noi/khoa-nguyen-nuoc-ep-sinh-to-coc-xoai-bao-tu-shop-online">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name"
+                                            class="none-quality-text ng-binding quality-merchant-text"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}"
+                                            title="Khoa Nguyễn - Nước Ép, Sinh Tố &amp; Cóc Xoài Bao Tử - Shop Online">Khoa
+                                            Nguyễn - Nước Ép, Sinh Tố &amp; Cóc Xoài Bao Tử - Shop Online</span>
+                                    </div>
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="298 Đê La Thành Nhỏ, Đống Đa, Hà Nội">298 Đê La Thành Nhỏ, Đống Đa, Hà
+                                        Nội</div>
+                                </a>
+                            </div><!-- end ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Shop Online</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div ng-if="!(item.brand &amp;&amp; item.brand.restaurant_count>1)" class="ng-scope">
+                                <a class="avatar" title="Bếp Tâm An - Cơm Văn Phòng Cao Cấp &amp; Ăn Vặt Online"
+                                    ng-href="https://shopeefood.vn/ha-noi/bep-tam-an-com-van-phong-cao-cap-an-vat-online"
+                                    target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/bep-tam-an-com-van-phong-cao-cap-an-vat-online">
+                                    <img ng-src="https://images.foody.vn/res/g96/950657/prof/s750x400/image-7d8e6455-200910115820.jpeg"
+                                        alt="Bếp Tâm An - Cơm Văn Phòng Cao Cấp &amp; Ăn Vặt Online"
+                                        src="https://images.foody.vn/res/g96/950657/prof/s750x400/image-7d8e6455-200910115820.jpeg">
+                                </a>
+                                <a title="Bếp Tâm An - Cơm Văn Phòng Cao Cấp &amp; Ăn Vặt Online"
+                                    ng-href="https://shopeefood.vn/ha-noi/bep-tam-an-com-van-phong-cao-cap-an-vat-online"
+                                    target="_blank" rel="nofollow"
+                                    href="https://shopeefood.vn/ha-noi/bep-tam-an-com-van-phong-cao-cap-an-vat-online">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name"
+                                            class="none-quality-text ng-binding quality-merchant-text"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}"
+                                            title="Bếp Tâm An - Cơm Văn Phòng Cao Cấp &amp; Ăn Vặt Online">Bếp Tâm An -
+                                            Cơm Văn Phòng Cao Cấp &amp; Ăn Vặt Online</span>
+                                    </div>
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="6 Ngách 82/96, Ngõ 166 Kim Mã (Cạnh Nhà Nghỉ Thuỳ Linh), Ba Đình, Hà Nội">
+                                        6 Ngách 82/96, Ngõ 166 Kim Mã (Cạnh Nhà Nghỉ Thuỳ Linh), Ba Đình, Hà Nội</div>
+                                </a>
+                            </div><!-- end ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Shop Online</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <div ng-if="item.brand &amp;&amp; item.brand.restaurant_count>1" class="ng-scope">
+                                <a class="avatar" title="Phương Dung"
+                                    ng-href="https://shopeefood.vn/ha-noi/phuong-dung-com-ga-chim-quay-tong-duy-tan"
+                                    target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/phuong-dung-com-ga-chim-quay-tong-duy-tan">
+                                    <img ng-src="https://images.foody.vn/res/g15/147172/prof/s750x400/file_restaurant_photo_nw9y_16117-c696996b-210128000015.jpeg"
+                                        alt="Phương Dung"
+                                        src="https://images.foody.vn/res/g15/147172/prof/s750x400/file_restaurant_photo_nw9y_16117-c696996b-210128000015.jpeg">
+                                </a>
+                                <a title="Phương Dung"
+                                    ng-href="https://shopeefood.vn/ha-noi/phuong-dung-com-ga-chim-quay-tong-duy-tan"
+                                    target="_blank" rel="nofollow"
+                                    href="https://shopeefood.vn/ha-noi/phuong-dung-com-ga-chim-quay-tong-duy-tan">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name"
+                                            title="Phương Dung - Cơm Đảo Gà Rang &amp; Chim Quay - Tống Duy Tân"
+                                            class="none-quality-text ng-binding quality-merchant-text"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}">Phương Dung -
+                                            Cơm Đảo Gà Rang &amp; Chim Quay - Tống Duy Tân</span>
+                                    </div>
+
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="24 Tống Duy Tân, Hoàn Kiếm, Hà Nội">24 Tống Duy Tân, Hoàn Kiếm, Hà Nội
+                                    </div>
+                                </a>
+                            </div><!-- end ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Bistro</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <div ng-if="item.brand &amp;&amp; item.brand.restaurant_count>1" class="ng-scope">
+                                <a class="avatar" title="Cơm Ngon Hà Nội - HN"
+                                    ng-href="https://shopeefood.vn/ha-noi/com-ngon-ha-noi-trung-hoa" target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/com-ngon-ha-noi-trung-hoa">
+                                    <img ng-src="https://images.foody.vn/res/g109/1082221/prof/s750x400/foody-upload-api-foody-mobile-fo-b1161918-210610162812.jpeg"
+                                        alt="Cơm Ngon Hà Nội - HN"
+                                        src="https://images.foody.vn/res/g109/1082221/prof/s750x400/foody-upload-api-foody-mobile-fo-b1161918-210610162812.jpeg">
+                                </a>
+                                <a title="Cơm Ngon Hà Nội - HN"
+                                    ng-href="https://shopeefood.vn/ha-noi/com-ngon-ha-noi-trung-hoa" target="_blank"
+                                    rel="nofollow" href="https://shopeefood.vn/ha-noi/com-ngon-ha-noi-trung-hoa">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant ng-hide"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name" title="Cơm Ngon Hà Nội - Trung Hòa"
+                                            class="none-quality-text ng-binding"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}">Cơm Ngon Hà
+                                            Nội - Trung Hòa</span>
+                                    </div>
+
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="N6C Trung Hòa Nhân Chính, Thanh Xuân, Hà Nội">N6C Trung Hòa Nhân Chính,
+                                        Thanh Xuân, Hà Nội</div>
+                                </a>
+                            </div><!-- end ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Bistro</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div ng-if="!(item.brand &amp;&amp; item.brand.restaurant_count>1)" class="ng-scope">
+                                <a class="avatar" title="Lê Làn - Cháo, Mì Trộn &amp; Đồ Ăn Vặt Online"
+                                    ng-href="https://shopeefood.vn/ha-noi/le-lan-chao-mi-tron-do-an-vat-online-xuan-dinh"
+                                    target="_blank"
+                                    href="https://shopeefood.vn/ha-noi/le-lan-chao-mi-tron-do-an-vat-online-xuan-dinh">
+                                    <img ng-src="https://images.foody.vn/res/g99/980411/prof/s750x400/foody-upload-api-foody-mobile-z1617302029394_dd190-191115105744.jpg"
+                                        alt="Lê Làn - Cháo, Mì Trộn &amp; Đồ Ăn Vặt Online"
+                                        src="https://images.foody.vn/res/g99/980411/prof/s750x400/foody-upload-api-foody-mobile-z1617302029394_dd190-191115105744.jpg">
+                                </a>
+                                <a title="Lê Làn - Cháo, Mì Trộn &amp; Đồ Ăn Vặt Online"
+                                    ng-href="https://shopeefood.vn/ha-noi/le-lan-chao-mi-tron-do-an-vat-online-xuan-dinh"
+                                    target="_blank" rel="nofollow"
+                                    href="https://shopeefood.vn/ha-noi/le-lan-chao-mi-tron-do-an-vat-online-xuan-dinh">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name"
+                                            class="none-quality-text ng-binding quality-merchant-text"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}"
+                                            title="Lê Làn - Cháo, Mì Trộn &amp; Đồ Ăn Vặt Online">Lê Làn - Cháo, Mì Trộn
+                                            &amp; Đồ Ăn Vặt Online</span>
+                                    </div>
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="Nhà 1 Ngách 189 Ngõ 205 Xuân Đỉnh, P. Xuân Đỉnh, Bắc Từ Liêm, Hà Nội">Nhà
+                                        1 Ngách 189 Ngõ 205 Xuân Đỉnh, P. Xuân Đỉnh, Bắc Từ Liêm, Hà Nội</div>
+                                </a>
+                            </div><!-- end ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Shop Online</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <li ng-repeat="item in ListItems.Items" class="ng-scope">
+                            <!-- ngIf: item.brand && item.brand.restaurant_count>1 -->
+                            <!-- ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div ng-if="!(item.brand &amp;&amp; item.brand.restaurant_count>1)" class="ng-scope">
+                                <a class="avatar" title="Chè Sầu Liên &amp; Dừa Dầm - Triều Khúc"
+                                    ng-href="https://shopeefood.vn/ha-noi/dua-dam-che-sau-lien-trieu-khuc"
+                                    target="_blank" href="https://shopeefood.vn/ha-noi/dua-dam-che-sau-lien-trieu-khuc">
+                                    <img ng-src="https://images.foody.vn/res/g22/219293/prof/s750x400/foody-upload-api-foody-mobile-che-duong-thom-190221151020.jpg"
+                                        alt="Chè Sầu Liên &amp; Dừa Dầm - Triều Khúc"
+                                        src="https://images.foody.vn/res/g22/219293/prof/s750x400/foody-upload-api-foody-mobile-che-duong-thom-190221151020.jpg">
+                                </a>
+                                <a title="Chè Sầu Liên &amp; Dừa Dầm - Triều Khúc"
+                                    ng-href="https://shopeefood.vn/ha-noi/dua-dam-che-sau-lien-trieu-khuc"
+                                    target="_blank" rel="nofollow"
+                                    href="https://shopeefood.vn/ha-noi/dua-dam-che-sau-lien-trieu-khuc">
+                                    <div class="name limit-text">
+                                        <span ng-show="item.is_quality_merchant" class="quality-merchant"
+                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"></span>
+                                        <span ng-bind="item.name"
+                                            class="none-quality-text ng-binding quality-merchant-text"
+                                            ng-class="{'quality-merchant-text':item.is_quality_merchant}"
+                                            title="Chè Sầu Liên &amp; Dừa Dầm - Triều Khúc">Chè Sầu Liên &amp; Dừa Dầm -
+                                            Triều Khúc</span>
+                                    </div>
+                                    <div class="address limit-text ng-binding" ng-bind="item.address"
+                                        title="1 Ngõ 66A Triều Khúc, Thanh Xuân, Hà Nội">1 Ngõ 66A Triều Khúc, Thanh
+                                        Xuân, Hà Nội</div>
+                                </a>
+                            </div><!-- end ngIf: !(item.brand && item.brand.restaurant_count>1) -->
+                            <div class="info limit-text" ng-class="{'highlight':item.promotion_title}">
+                                <i class="fa fa-tag ng-hide"
+                                    style="color: red; font-weight: 900; display: inline-block;padding-right: 5px;"
+                                    ng-show="item.promotion_title"></i>
+                                <label ng-bind-html="BindCategoriesPython(item)" class="ng-binding">Street food</label>
+                            </div>
+                        </li><!-- end ngRepeat: item in ListItems.Items -->
+                        <!-- ngIf: ListItems.Items.length==0 -->
+                    </ul><!-- end ngIf: !ListItems.IsLoading -->
+                    <!-- ngIf: ShowPrevPython() -->
+                    <!-- ngIf: ShowNextPython() --><i class="li-page fa fa-angle-right ng-scope ng-enter-prepare"
+                        ng-click="ListNextPython()" ng-if="ShowNextPython()"
+                        ng-class="{'less':ListItems.Items.length<=5}"></i><!-- end ngIf: ShowNextPython() -->
+                </div>
+
+
+
+            </div>
+
+
+
 
 
 </body>
