@@ -20,10 +20,10 @@
     <header>
         <div class="container-topbar">
             <div class="topbar">
-                <a class="current" href="#">Khám phá</a>
-                <a href="#">Đặt giao hàng</a>
-                <a href="#">Đi chợ</a>
-                <a href="#">Giảm giá</a>
+                <a class="header.php" href="#">Khám phá</a>
+                <a href="datgiaohang.php">Đặt giao hàng</a>
+                
+                <a href="giamgia.php">Giảm giá</a>
             </div>
         </div>
         <div class="header-toolbar">
