@@ -374,3 +374,57 @@ ul {
     right: -18px;
     padding: 8px 0 0 5px;
 }
+
+.footer {
+    width: 100%;
+    background: #fff;
+    z-index: 4000;
+    clear: both;
+    line-height: 1.7em;
+    padding: 30px 0 10px;
+    min-height: 90px;
+    font-size: 12px;
+    border-top: #ddd 1px solid;
+    height: 210px;
+}
+aside, figure, footer, header, hgroup, nav, section, session {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.footer .footer-fixed {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer .footer-min {
+    float: left;
+    width: 1170px;
+    color: #aaa;
+    white-space: normal;
+}
+.footer-left-box {
+    float: left;
+    width: 230px;
+}
+.footer .footer-titles {
+    font-weight: 700;
+    color: #aaa;
+    border-bottom: #eee 1px solid;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.footer-middle-box {
+    float: left;
+    width: 200px;
+    padding-left: 35px;
+}
+
+.footer-country-list {
+    clear: both;
+    text-align: center;
+    padding: 15px 0;
+    border-top: #eee 1px solid;
+    margin-top: 53px;
+}
