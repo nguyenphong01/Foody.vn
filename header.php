@@ -57,8 +57,20 @@
             </div>
             <div class="right-header-toolbar">
                 <div class="account-manage" id="accountmanager">
-                    <a class="fd-btn-login-new" ng-click="Login()" ng-class="{'loading':IsLoading}">
+                    <a href="account.php" class="fd-btn-login-new" ng-click="Login()" ng-class="{'loading':IsLoading}">
                         <span>Đăng nhập</span>
+                        <!-- <?php
+                                                // require "login.php";
+                                                if (!isset($_SESSION['txtus'])) // If session is not set then redirect to Login Page
+                                                {
+                                                    printf(' <li class="nav-item"><a class="nav-link active" href="account.php"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                                                                <li class="nav-item"><a class="nav-link active" href="contact.php"><i class="fas fa-envelope"></i> Contact</a></li>');
+                                                } else {
+                                                    echo '<li class="nav-item" style:"color: lavender"><span class="glyphicon glyphicon-user"></span>';
+                                                    echo '<span style="color:lavender"><b>' . $_SESSION['HoTen'] . '</b></span></li>';
+                                                    echo '<li class="nav-item"><a class="nav-link active" href="logout.php"> Log Out</a></li>';
+                                                }
+                                            ?> -->
                     </a>
                     <div id="update-profile-popup" style="display: none">
                     </div>
