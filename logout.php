@@ -1,5 +1,9 @@
-<?php 
+<?php
     session_start();
-    session_unset(); 
-   header('Location: datgiaohang.php');
+
+    if(isset($_SESSION['isLoginOK'])){
+        unset($_SESSION['isLoginOK']);
+        header("location:khampha.php");
+    }
+
 ?>

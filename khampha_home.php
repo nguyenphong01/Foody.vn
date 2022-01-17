@@ -22,7 +22,7 @@
             <div class="topbar">
                 <a class="header.php" href="#">Khám phá</a>
                 <a href="datgiaohang.php">Đặt giao hàng</a>
-                
+
                 <a href="giamgia.php">Giảm giá</a>
             </div>
         </div>
@@ -56,36 +56,7 @@
                 </div>
             </div>
             <div class="right-header-toolbar">
-                <div class="account-manage" id="accountmanager">
-                    <a href="account.php" class="fd-btn-login-new" ng-click="Login()" ng-class="{'loading':IsLoading}">
-                        <span>Đăng nhập</span>
-                        <!-- <?php
-                                                // require "login.php";
-                                                if (!isset($_SESSION['txtus'])) // If session is not set then redirect to Login Page
-                                                {
-                                                    printf(' <li class="nav-item"><a class="nav-link active" href="account.php"><i class="fas fa-sign-in-alt"></i> Login</a></li>
-                                                                <li class="nav-item"><a class="nav-link active" href="contact.php"><i class="fas fa-envelope"></i> Contact</a></li>');
-                                                } else {
-                                                    echo '<li class="nav-item" style:"color: lavender"><span class="glyphicon glyphicon-user"></span>';
-                                                    echo '<span style="color:lavender"><b>' . $_SESSION['HoTen'] . '</b></span></li>';
-                                                    echo '<li class="nav-item"><a class="nav-link active" href="logout.php"> Log Out</a></li>';
-                                                }
-                                            ?> -->
-                    </a>
-                    <div id="update-profile-popup" style="display: none">
-                    </div>
-                    <div id="update-profile-popup-loading" style="display: none">
-                        Loading...
-                    </div>
-                    <div id="loginPopup" style="display: none">
-                        <div id="loginPopupPH" style="text-align:center; line-height:30px;">
-                            <img style="display:inline" src="/style/images/icons/ajax-loader.gif">
-                        </div>
-                    </div>
-                    <div id="loginFacebookPopup" style="display: none">Loading...</div>
-
-                    <input type="hidden" id="encryptedlogin" autocomplete="off">
-                </div>
+                <a href="logout.php">Đăng xuất</a>
             </div>
         </div>
     </header>
@@ -155,121 +126,121 @@
                 <script src="/scripts/delivery/countingdown.js"></script>
             </div>
             <style>
-                .c-dropdown-container {
-                    position: relative;
-                }
+            .c-dropdown-container {
+                position: relative;
+            }
 
-                .c-dropdown {
-                    left: 0 !important;
-                    min-width: 180px !important;
-                    position: absolute !important;
-                    top: 100% !important;
-                    z-index: 20 !important;
-                    background-color: #fff !important;
-                    border-radius: 1px !important;
-                    box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1) !important;
-                    height: auto !important;
-                }
+            .c-dropdown {
+                left: 0 !important;
+                min-width: 180px !important;
+                position: absolute !important;
+                top: 100% !important;
+                z-index: 20 !important;
+                background-color: #fff !important;
+                border-radius: 1px !important;
+                box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1) !important;
+                height: auto !important;
+            }
 
-                .c-dropdown-container .c-dropdown li {
-                    display: block !important;
-                    padding: 0 !important;
-                    position: relative !important;
-                    border-bottom: 1px solid #eae9e9;
-                }
+            .c-dropdown-container .c-dropdown li {
+                display: block !important;
+                padding: 0 !important;
+                position: relative !important;
+                border-bottom: 1px solid #eae9e9;
+            }
 
-                .c-dropdown-container .c-dropdown li a,
-                .c-dropdown-container .c-dropdown li a span {
-                    white-space: nowrap !important;
-                    color: #4a4a4a !important;
-                    display: block !important;
-                    font-size: 14px !important;
-                    line-height: 1.5 !important;
-                    padding: 8px 10px !important;
-                }
+            .c-dropdown-container .c-dropdown li a,
+            .c-dropdown-container .c-dropdown li a span {
+                white-space: nowrap !important;
+                color: #4a4a4a !important;
+                display: block !important;
+                font-size: 14px !important;
+                line-height: 1.5 !important;
+                padding: 8px 10px !important;
+            }
 
-                .c-dropdown-container .c-dropdown li a:hover {
-                    background-color: #f5f5f5;
-                    color: #0a0a0a;
-                }
+            .c-dropdown-container .c-dropdown li a:hover {
+                background-color: #f5f5f5;
+                color: #0a0a0a;
+            }
 
 
 
-                .home-page-2017 .box-group .n-header .nav-box ul {
-                    overflow: visible;
-                }
+            .home-page-2017 .box-group .n-header .nav-box ul {
+                overflow: visible;
+            }
 
-                .banner-mini-box-container {
-                    width: 100%;
-                    margin: 10px auto -10px;
-                    padding-left: 0;
-                    padding-right: 0;
-                    display: block;
-                    float: left;
-                    width: 100%;
-                    z-index: 1;
-                    position: relative;
-                }
+            .banner-mini-box-container {
+                width: 100%;
+                margin: 10px auto -10px;
+                padding-left: 0;
+                padding-right: 0;
+                display: block;
+                float: left;
+                width: 100%;
+                z-index: 1;
+                position: relative;
+            }
 
-                .banner-mini-box {
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: flex;
-                    -webkit-box-orient: horizontal;
-                    -webkit-box-direction: normal;
-                    -ms-flex-flow: row wrap;
-                    flex-flow: row wrap;
-                    margin-left: -5px;
-                    margin-right: -5px;
-                }
+            .banner-mini-box {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+                margin-left: -5px;
+                margin-right: -5px;
+            }
 
-                .banner-mini-box-item {
-                    padding: 0 5px;
-                    -webkit-box-flex: 1;
-                    -ms-flex: 1 1 50%;
-                    flex: 1 1 50%;
-                    max-width: 50%;
-                }
+            .banner-mini-box-item {
+                padding: 0 5px;
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 50%;
+                flex: 1 1 50%;
+                max-width: 50%;
+            }
 
-                .banner-mini-box-item .banner img {
-                    width: 100%;
-                }
+            .banner-mini-box-item .banner img {
+                width: 100%;
+            }
 
-                .txt-orangen {
-                    padding: 9px 0 4px;
-                    font-weight: 700;
-                    font-size: 12px;
-                }
+            .txt-orangen {
+                padding: 9px 0 4px;
+                font-weight: 700;
+                font-size: 12px;
+            }
 
-                .card-view-more {
-                    font-size: 12px;
-                    color: #959595;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    padding-top: 5px;
-                }
+            .card-view-more {
+                font-size: 12px;
+                color: #959595;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                padding-top: 5px;
+            }
 
-                .home-page-2017 .box-group .n-listitems .items .info {
-                    height: 60px;
-                }
+            .home-page-2017 .box-group .n-listitems .items .info {
+                height: 60px;
+            }
 
-                .opentime-status {
-                    position: absolute;
-                    top: -2px;
-                    left: -2px;
-                    z-index: 1;
-                }
+            .opentime-status {
+                position: absolute;
+                top: -2px;
+                left: -2px;
+                z-index: 1;
+            }
 
-                .opentime-status .online {
-                    border-radius: 50%;
-                    cursor: pointer;
-                    width: 15px;
-                    height: 15px;
-                    display: block;
-                    position: relative;
-                    z-index: 2;
-                }
+            .opentime-status .online {
+                border-radius: 50%;
+                cursor: pointer;
+                width: 15px;
+                height: 15px;
+                display: block;
+                position: relative;
+                z-index: 2;
+            }
             </style>
 
             <div id="box-delivery" class="box-group delivery ng-scope" ng-controller="DeliveryPythonCtrl"
@@ -772,8 +743,8 @@
                         </div>
                         <div class="footer-middle-box" style="padding-left: 35px; width: 160px;">
 
-                            <script language="JavaScript" src="https://dunsregistered.dnb.com"
-                                type="text/javascript"></script><iframe id="Iframe1"
+                            <script language="JavaScript" src="https://dunsregistered.dnb.com" type="text/javascript">
+                            </script><iframe id="Iframe1"
                                 src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1" width="114px"
                                 height="97px" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
                         </div>
@@ -805,9 +776,9 @@
 
                 </div>
                 <script>
-                    function InviteFriend() {
+                function InviteFriend() {
 
-                    }
+                }
                 </script>
             </footer>
 

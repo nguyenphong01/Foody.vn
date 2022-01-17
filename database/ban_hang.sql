@@ -34,8 +34,8 @@ CREATE TABLE `chitiethoadon` (
   `soluong` int(11) NOT NULL,
   `dongia` float NOT NULL,
   `thanhtien` decimal(9,2) NOT NULL,
-  `madv` varchar(200) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  `madv` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `chitiethoadon`
@@ -54,9 +54,9 @@ INSERT INTO `chitiethoadon` (`id_chi_tiet_hoadon`, `sodh`, `masp`, `soluong`, `d
 
 CREATE TABLE `dichvu` (
   `madv` bigint(20) NOT NULL,
-  `tendv` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `tendv` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
   `gia` double NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `dichvu`
@@ -74,14 +74,14 @@ INSERT INTO `dichvu` (`madv`, `tendv`, `gia`) VALUES
 
 CREATE TABLE `hoadon` (
   `sodh` bigint(20) NOT NULL,
-  `emailkh` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `emailkh` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   `ngaygiao` date NOT NULL,
-  `tenkh` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `diachi` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
-  `dienthoai` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  `hinhthucthanhtoan` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `tenkh` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `diachi` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `dienthoai` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `hinhthucthanhtoan` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `thanhtien` decimal(9,2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `hoadon`
@@ -117,11 +117,11 @@ INSERT INTO `loginadmin` (`tendangnhap`, `matkhau`) VALUES
 --
 
 CREATE TABLE `loginuser` (
-  `email` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   `matkhau` int(200) NOT NULL,
-  `HoTen` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `DienThoai` varchar(50) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  `HoTen` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `DienThoai` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `loginuser`
@@ -129,10 +129,10 @@ CREATE TABLE `loginuser` (
 
 INSERT INTO `loginuser` (`email`, `matkhau`, `HoTen`, `DienThoai`) VALUES
 ('abc@gmail.com', 123, 'abc', '136888999'),
-('kimanh@gmail.com', 123, 'Kim Anh', '0934237266'),
+('hoa@gmail.com', 123, 'Hoa', '0934237266'),
 ('ngbaduong@gmail.com', 123, 'Duong', '0852635623'),
 ('ngdangtruong@gmail.com', 123, 'Truong', '122335848'),
-('nghongphong@gmail.com', 123, 'Hong PHong', '0833454666');
+('nghongphong@gmail.com', 123, 'Hong Phong', '0833454666');
 
 -- --------------------------------------------------------
 
@@ -143,7 +143,7 @@ INSERT INTO `loginuser` (`email`, `matkhau`, `HoTen`, `DienThoai`) VALUES
 CREATE TABLE `nhacungcap` (
   `ID` bigint(10) NOT NULL,
   `Ten` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `nhacungcap`
@@ -163,14 +163,14 @@ INSERT INTO `nhacungcap` (`ID`, `Ten`) VALUES
 
 CREATE TABLE `sanpham` (
   `ID` bigint(10) NOT NULL,
-  `Ten` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `Ten` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
   `Gia` double NOT NULL,
-  `HinhAnh` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `HinhAnh` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
   `Manhacungcap` bigint(10) NOT NULL,
-  `Mota` text COLLATE utf8_unicode_ci NOT NULL,
+  `Mota` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `KhuyenMai` tinyint(1) NOT NULL,
-  `makhuyenmai` varchar(10) COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  `makhuyenmai` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Chỉ mục cho các bảng đã đổ
