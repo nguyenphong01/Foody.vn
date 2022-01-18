@@ -45,22 +45,22 @@
                                             </div>
 
                                             <div class="dropdown-item">
-                                                <span class="drop-item-name col">Bắc Ninh</span>
+                                                <span class="drop-item-name col">Hải Phòng</span>
                                                 <span class="drop-item-count col-auto">480 địa điểm</span>
                                             </div>
 
                                             <div class="dropdown-item">
-                                                <span class="drop-item-name col">Bắc Ninh</span>
+                                                <span class="drop-item-name col">Quảng Ninh</span>
                                                 <span class="drop-item-count col-auto">480 địa điểm</span>
                                             </div>
 
                                             <div class="dropdown-item">
-                                                <span class="drop-item-name col">Bắc Ninh</span>
+                                                <span class="drop-item-name col">Hưng Yên</span>
                                                 <span class="drop-item-count col-auto">480 địa điểm</span>
                                             </div>
 
                                             <div class="dropdown-item">
-                                                <span class="drop-item-name col">Bắc Ninh</span>
+                                                <span class="drop-item-name col">Vĩnh Phúc</span>
                                                 <span class="drop-item-count col-auto">480 địa điểm</span>
                                             </div>
 
@@ -84,20 +84,8 @@
                                     </div>
 
                                     <div class="user-login col-auto px-2">
-                                        <a href="account.php">
+                                        <a href="login.php">
                                             <button type="button" class="btn btn-none-bg btn-login">Đăng nhập</button>
-                                            <!-- <?php
-                                                // require "login.php";
-                                                if (!isset($_SESSION['txtus'])) // If session is not set then redirect to Login Page
-                                                {
-                                                    printf(' <li class="nav-item"><a class="nav-link active" href="account.php"><i class="fas fa-sign-in-alt"></i> Login</a></li>
-                                                                <li class="nav-item"><a class="nav-link active" href="contact.php"><i class="fas fa-envelope"></i> Contact</a></li>');
-                                                } else {
-                                                    echo '<li class="nav-item" style:"color: lavender"><span class="glyphicon glyphicon-user"></span>';
-                                                    echo '<span style="color:lavender"><b>' . $_SESSION['HoTen'] . '</b></span></li>';
-                                                    echo '<li class="nav-item"><a class="nav-link active" href="logout.php"> Log Out</a></li>';
-                                                }
-                                            ?> -->
                                         </a>
                                     </div>
 
