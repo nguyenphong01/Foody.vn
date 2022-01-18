@@ -56,6 +56,13 @@
                 </div>
             </div>
             <div class="right-header-toolbar">
+                <button class="flex-shrink-0 dropdown bg-white border-0">
+                    <a href="#" class="d-block link-dark text-decoration-none "
+                        id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/avatar.webp" alt="" width="32" height="32"
+                            class="rounded-circle">
+                    </a>                 
+                </button>
                 <a href="logout.php">Đăng xuất</a>
             </div>
         </div>
