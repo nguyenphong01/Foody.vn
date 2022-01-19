@@ -221,20 +221,81 @@
                                 <div class="col-md-4 px-0">
                                     <div class="item-restaurant">
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/bundau.jpg"
+                                            class="w-100"/>
+                                        </div>
+                                        <div class="info-restaurant">
+                                            <div class="info-basic-res">
+                                                <h4 class="name-res"
+                                                    title="Bún Đậu Làng Quê-Bún Đậu Mẹt">
+                                                    Bún Đậu Làng Quê-Bún Đậu Mẹt
+                                                </h4>
+                                                <div class="address-res"
+                                                    title="83 Mễ Trì Thượng (Đối diện 262 Mễ Trì Thượng),Nam Từ Liêm,Hà Nội">
+                                                    83 Mễ Trì Thượng (Đối diện 262 Mễ Trì Thượng),Nam Từ Liêm,Hà Nội
+                                                </div>
+                                            </div>
+                                            <p class="content-promotion"><i class="fas fa-tag"></i> Giảm món</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 px-0">
+                                    <div class="item-restaurant">
+                                        <div class="img-restaurant">
+                                            <img src="./img/comchay.jpg"
                                                 class="w-100" />
                                         </div>
                                         <div class="info-restaurant">
                                             <div class="info-basic-res">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Cơm Cháy Phương Dung">
+                                                    Cơm Cháy Phương Dung
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="24 Tống Duy Tân,Hoàn Kiếm,Hà Nội">
+                                                    24 Tống Duy Tân,Hoàn Kiếm,Hà Nội
+                                                </div>
+                                            </div>
+                                            <p class="content-promotion"><i class="fas fa-tag"></i> Giảm hết 10%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 px-0">
+                                    <div class="item-restaurant">
+                                        <div class="img-restaurant">
+                                            <img src="./img/trasua.jpg"
+                                                class="w-100" />
+                                        </div>
+                                        <div class="info-restaurant">
+                                            <div class="info-basic-res">
+                                                <h4 class="name-res"
+                                                    title="Tiger Sugar Fruit & Tea - Ô Chợ Dừa">
+                                                    Tiger Sugar Fruit & Tea - Ô Chợ Dừa
+                                                </h4>
+                                                <div class="address-res"
+                                                    title="92 Ô Chợ Dừa, Đống Đa, Hà Nội">
+                                                    92 Ô Chợ Dừa, Đống Đa, Hà Nội
+                                                </div>
+                                            </div>
+                                            <p class="content-promotion"><i class="fas fa-tag"></i> Deal 12k</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 px-0">
+                                    <div class="item-restaurant">
+                                        <div class="img-restaurant">
+                                            <img src="./img/thitde.jpg"
+                                                class="w-100" />
+                                        </div>
+                                        <div class="info-restaurant">
+                                            <div class="info-basic-res">
+                                                <h4 class="name-res"
+                                                    title="Thịt dê Lê Làn">
+                                                    Thịt dê Lê Làn
+                                                </h4>
+                                                <div class="address-res"
+                                                    title="206 Xuân Đỉnh, Nam Từ Liêm, Hà Nội">
+                                                    206 Xuân Đỉnh, Nam Từ Liêm, Hà Nội
                                                 </div>
                                             </div>
                                             <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
@@ -244,138 +305,63 @@
                                 <div class="col-md-4 px-0">
                                     <div class="item-restaurant">
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/thitnuong.jpg"
                                                 class="w-100" />
                                         </div>
                                         <div class="info-restaurant">
                                             <div class="info-basic-res">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Quang Anh - Thịt Nướng">
+                                                    Quang Anh - Thịt Nướng
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="105 Tam Khương, Đống Đa, Hà Nội">
+                                                    105 Tam Khương, Đống Đa, Hà Nội
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
+                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 5%</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
                                     <div class="item-restaurant">
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/chesau.jpg"
                                                 class="w-100" />
                                         </div>
                                         <div class="info-restaurant">
                                             <div class="info-basic-res">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Chè Sầu Liên và Dừa Dầm">
+                                                    Chè Sầu Liên và Dừa Dầm
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="66A Triều Khúc, Thanh Xuân, Hà Nội">
+                                                    66A Triều Khúc, Thanh Xuân, Hà Nội
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
+                                            <p class="content-promotion"><i class="fas fa-tag"></i> Giảm món</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
                                     <div class="item-restaurant">
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/trasua.jpg"
                                                 class="w-100" />
                                         </div>
                                         <div class="info-restaurant">
                                             <div class="info-basic-res">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Trà Sữa Tocotoco - Chùa Láng">
+                                                    Trà Sữa Tocotoco - Chùa Láng
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="Chùa Láng, Đống Đa, Hà Nội">
+                                                    Chùa Láng, Đống Đa, Hà Nội
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
-                                        <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
-                                                class="w-100" />
-                                        </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
-                                                <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
-                                                </h4>
-                                                <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
-                                                </div>
-                                            </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
-                                        <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
-                                                class="w-100" />
-                                        </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
-                                                <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
-                                                </h4>
-                                                <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
-                                                </div>
-                                            </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
-                                        <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
-                                                class="w-100" />
-                                        </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
-                                                <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
-                                                </h4>
-                                                <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
-                                                </div>
-                                            </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
+                                            <p class="content-promotion"><i class="fas fa-tag"></i> Giảm hết 40%</p>
                                         </div>
                                     </div>
                                 </div>
@@ -407,214 +393,167 @@
 
                         <div class="now-list-restaurant">
                             <div class="d-flex justify-content-between align-items-center">
-                                <p>Ưu đãi</p>
+                                <p>Bộ sưu tập</p>
                                 <p>Xem tất cả</p>
                             </div>
                             <div class="row">
                                 <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
+                                    <div class="item-restaurant" >
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/deal.jpeg"
                                                 class="w-100" />
                                         </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
+                                        <div class="info-restaurant" style="border: 0;">
+                                            <div class="info-basic-res" style="border-bottom: 0;">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Năm cũ sắp qua - Hốt deal 88k">
+                                                    Năm cũ sắp qua - Hốt deal 88k
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="200 địa điểm">
+                                                    200 địa điểm
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
+                                    <div class="item-restaurant" >
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/deal.jpeg"
                                                 class="w-100" />
                                         </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
+                                        <div class="info-restaurant" style="border: 0;">
+                                            <div class="info-basic-res" style="border-bottom: 0;">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Combo 188k - Khao nhà ăn tết">
+                                                    Combo 188k - Khao nhà ăn tết
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="200 địa điểm">
+                                                    200 địa điểm
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
+                                    <div class="item-restaurant" >
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/deal.jpeg"
                                                 class="w-100" />
                                         </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
+                                        <div class="info-restaurant" style="border: 0;">
+                                            <div class="info-basic-res" style="border-bottom: 0;">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Năm cũ sắp qua - Hốt deal 88k">
+                                                    Năm cũ sắp qua - Hốt deal 88k
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="200 địa điểm">
+                                                    200 địa điểm
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
+                                    <div class="item-restaurant" >
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/deal.jpeg"
                                                 class="w-100" />
                                         </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
+                                        <div class="info-restaurant" style="border: 0;">
+                                            <div class="info-basic-res" style="border-bottom: 0;">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Năm cũ sắp qua - Hốt deal 88k">
+                                                    Năm cũ sắp qua - Hốt deal 88k
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="200 địa điểm">
+                                                    200 địa điểm
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
+                                    <div class="item-restaurant" >
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/deal.jpeg"
                                                 class="w-100" />
                                         </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
+                                        <div class="info-restaurant" style="border: 0;">
+                                            <div class="info-basic-res" style="border-bottom: 0;">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Năm cũ sắp qua - Hốt deal 88k">
+                                                    Năm cũ sắp qua - Hốt deal 88k
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="200 địa điểm">
+                                                    200 địa điểm
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
+                                    <div class="item-restaurant" >
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/deal.jpeg"
                                                 class="w-100" />
                                         </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
+                                        <div class="info-restaurant" style="border: 0;">
+                                            <div class="info-basic-res" style="border-bottom: 0;">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Năm cũ sắp qua - Hốt deal 88k">
+                                                    Năm cũ sắp qua - Hốt deal 88k
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="200 địa điểm">
+                                                    200 địa điểm
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
+                                    <div class="item-restaurant" >
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/deal.jpeg"
                                                 class="w-100" />
                                         </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
+                                        <div class="info-restaurant" style="border: 0;">
+                                            <div class="info-basic-res" style="border-bottom: 0;">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Năm cũ sắp qua - Hốt deal 88k">
+                                                    Năm cũ sắp qua - Hốt deal 88k
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="200 địa điểm">
+                                                    200 địa điểm
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
+                                    <div class="item-restaurant" >
                                         <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
+                                            <img src="./img/deal.jpeg"
                                                 class="w-100" />
                                         </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
+                                        <div class="info-restaurant" style="border: 0;">
+                                            <div class="info-basic-res" style="border-bottom: 0;">
                                                 <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
+                                                    title="Năm cũ sắp qua - Hốt deal 88k">
+                                                    Năm cũ sắp qua - Hốt deal 88k
                                                 </h4>
                                                 <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
+                                                    title="200 địa điểm">
+                                                    200 địa điểm
                                                 </div>
                                             </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 px-0">
-                                    <div class="item-restaurant">
-                                        <div class="img-restaurant">
-                                            <img src="https://images.foody.vn/res/g69/682061/prof/s280x175/foody-upload-api-foody-mobile-11a-jpg-180816143840.jpg"
-                                                class="w-100" />
-                                        </div>
-                                        <div class="info-restaurant">
-                                            <div class="info-basic-res">
-                                                <h4 class="name-res"
-                                                    title="Rules Of Tea - Trà Sữa Đế Vương - Nguyễn Văn Cừ">
-                                                    Rules Of Tea - Trà
-                                                    Sữa Đế Vương - Nguyễn Văn Cừ
-                                                </h4>
-                                                <div class="address-res"
-                                                    title="213D Nguyễn Văn Cừ, P. 3, Quận 5, TP. HCM">
-                                                    213D Nguyễn Văn Cừ, P. 3, Quận
-                                                    5, TP. HCM
-                                                </div>
-                                            </div>
-                                            <p class="content-promotion"><i class="fas fa-tag"></i> Mã giảm 15%</p>
                                         </div>
                                     </div>
                                 </div>
